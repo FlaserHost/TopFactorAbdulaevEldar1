@@ -1,29 +1,3 @@
-html{
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-body{
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: #000000;
-}
-
-a{
-    color: inherit;
-    text-decoration: none;
-}
-li{
-    list-style-type: none;
-}
-
 .container{
     max-width: 1170px;
     padding: 0 15px;
@@ -87,6 +61,7 @@ padding-top: 30px;
     color: #FFFFFF;
 }
 .button-contact{
+    text-transform: uppercase;
     width: 206px;
     height: 50px;
     border-radius: 3px;
