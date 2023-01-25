@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <header class="header">
@@ -28,10 +29,17 @@
                 </a>
             </nav>
             <nav class="nav nav2">
-                <a href="#" class="logo">
-                    <img class="logo-img" src="images/logo.svg" alt="logo">
-                </a>
-                <ul class="menu-list">
+                <div class="logo-img">
+                    <a href="#" >
+                        <img class="logo" src="images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="menu-icon" id="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="menu-list" id="menu-list">
                     <li class="menu-item">
                         <a href="#" class="menu-link">Solutions</a>
                     </li>
@@ -52,15 +60,16 @@
                     </li>
                 </ul>
             </nav>
+            <div class="popup" id="popup"></div>
         </div>
     </header>
 <section class="contact-us">
     <div class="contact">
         <div class="container text-button">
     <p class="text-contact">We invite international consulting companies to partnership. 
-          We have been developing software for more than 15 years.
+            We have been developing software for more than 15 years.
     </p>
-    <button class="button-contact" type="button">CONTACT US</button>
+     <button class="button-contact" type="button">CONTACT US</button>
         </div>
     </div>
 </section>
@@ -70,42 +79,45 @@
         <div class="slides">
             <div class="slider-item">
                 <div class="text-banner">
-                    <h2>1C: Managment by Goals and KPI</h2>
-                    <p>Team perfomance assessment from <br/> anywhere in the world</p>
+                    <h2 class="title-banner">1C: Managment by Goals and KPI</h2>
+                    <p>Team perfomance assessment from anywhere in the world</p>
                     <button class="button-learn-more" type="button">Learn more</button>
                 </div>
                 <div class="img-banner">
                     <img class="banner" src="images/banner1.svg" alt="banner1">
+                    <img class="mobile-banner" src="images/mobile-banner.png" alt="monile-banner">
                 </div>
             </div>
             <div class="slider-item">
                 <div class="text-banner">
-                    <h2>Talent managment</h2>
-                    <p>Team perfomance assessment from <br/> anywhere in the world</p>
+                    <h2 class="title-banner">Talent managment</h2>
+                    <p>Team perfomance assessment from anywhere in the world</p>
                     <button class="button-learn-more" type="button">Learn more</button>
                 </div>
                 <div class="img-banner">
                     <img class="banner" src="images/banner2.svg" alt="banner1">
+                    <img class="mobile-banner" src="images/mobile-banner.png" alt="monile-banner">
                 </div>
             </div>
             <div class="slider-item">
                 <div class="text-banner">
-                    <h2>Recruitment managment</h2>
-                    <p>Team perfomance assessment from <br/> anywhere in the world</p>
+                    <h2 class="title-banner">Recruitment managment</h2>
+                    <p>Team perfomance assessment from anywhere in the world</p>
                     <button class="button-learn-more" type="button">Learn more</button>
                 </div>
                 <div class="img-banner">
                     <img class="banner" src="images/banner3.svg" alt="banner1">
+                    <img class="mobile-banner" src="images/mobile-banner.png" alt="monile-banner">
                 </div>
             </div>
         </div>
-    </div>
-    <div class="buttons-block">
-        <div id="left-button">
-            <img src="images/left.svg" alt="left">
-        </div>
-        <div id="right-button">
-            <img src="images/right.svg" alt="right">
+        <div class="buttons-block">
+            <div id="left-button">
+                <img src="images/left.svg" alt="left">
+            </div>
+            <div id="right-button">
+                <img src="images/right.svg" alt="right">
+            </div>
         </div>
     </div>
     <div class="dots-block">

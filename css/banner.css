@@ -8,8 +8,9 @@
 }
 
 .wrapper{
-    width: 1170px;
-    height: 550px;
+    max-width: 1200px;
+    /* height: 550px; */
+    height: 100%;
     position: relative;
     padding: 0 15px;
     margin: 0 auto;
@@ -23,6 +24,7 @@
     max-height: 550px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     z-index: 1;
 }
 
@@ -30,18 +32,23 @@
     max-width: 750px;
     max-height: 550px;
     display: block;
+    padding-right: 50px;
 }
 
 .banner{
  margin-top: 20px;
 }
+.mobile-banner{
+    display: none;
+}
 
 .text-banner{
   flex-basis: 520px;
-  margin-top: 100px;
+  padding-left: 15px;
+  z-index: 3;
 }
 
-h2{
+.title-banner{
     font-size: 42px;
     width: 600;
     color: #005C9D;
@@ -63,15 +70,14 @@ h2{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-   
 }
 #left-button{
-    left: 18%;
-    /* left: 0; */
+    /* left: 18%; */
+    left: 0;
 }
 #right-button{
-    right: 18%;
-    /* right: 0; */
+    /* right: 18%; */
+    right: 0;
 }
 .dots-block{
     position: absolute;
