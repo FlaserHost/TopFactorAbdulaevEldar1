@@ -13,6 +13,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.language-img-mobile{
+    display: none;
+}
 
 .nav1{
     margin-bottom: 15px;
@@ -93,6 +96,8 @@
     min-height: 47px;
     border-radius: 3px;
     background-color: #74D6F8;
+    font-family: 'Inter';
+    font-style: normal;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 20px;

@@ -17,6 +17,9 @@
     .slider-item{
       padding-top: 50px;
     }
+    .text-banner{
+      margin-top: 60px;
+    }
       }
 
         @media (max-width: 768px){
@@ -42,6 +45,7 @@
         .nav2{
             border-top: 1px solid #005C9D;
         }
+
         .menu-list{
             display: none;
         }
@@ -133,7 +137,8 @@
 
           /* Contact-us */
           .contact{
-            max-height: 107px;
+            /* max-height: 107px; */
+            height: 107px;
             padding: 0px;
           }
           .text-contact{
@@ -162,18 +167,16 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            max-width: 350px;
+            max-width: 550px;
             padding: 0 15px;
-            margin-top: 16px;
+            margin-top: 30px;
         }
         .title-banner{
-            margin-bottom: 0;
             text-align: center;
         }
         .subtitle{
             text-align: center;
-            margin-top: 0;
-            margin-bottom: 30px;
+            margin: 40px 0px 40px 0px;
         }
         #left-button, #right-button{
             position: absolute;
@@ -205,6 +208,7 @@
         .text-contact{
             max-width: 225px;
             font-size: 12px;
+            font-weight: 500;
           }
           .button-contact{
             min-width: 123px;
@@ -212,4 +216,93 @@
             font-weight: 700;
             font-size: 12px;
         }
+      }
+      @media(max-width: 390px){
+        .header{
+          padding-top: 10px;
+        }
+       
+        .language-img{
+          display: none;
+      }
+        .language-img-mobile{
+          padding: 8px 5px 0px 0px;
+          display: initial;
+      }
+      .search-img{
+        margin-left: 5px;
+        margin-top: 6px;
+      }
+      .search-input{
+        border-radius: 5px;
+        margin-left: 45px;
+        padding-left: 7px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #A1A5A8
+      }
+      .logo{
+        margin: 13px 0px 0px 5px;
+      }
+      .nav1{
+        margin-bottom: 12px;
+      }
+      .menu-icon{
+        width: 25px;
+        height: 18px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .text-button{
+      padding: 0px 7px 8px 20px;
+
+    }
+    .contact{
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .button-contact{
+      margin-left: 15px;
+    }
+    
+    .text-banner{
+      max-width: 380px;
+      margin-top: 20px;
+    }
+
+    .title-banner{
+      width: 336px;
+      font-weight: 600;
+      font-size: 32px;
+      margin-right: 24px;
+  }
+    .subtitle{
+      max-width: 350px;
+      font-weight: 400;
+      font-size: 20px;
+      margin: 10px 10px 25px 0px;
+  }
+
+    .button-learn-more{
+      width: 199px;
+      height: 51px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;  
+      font-family: 'Inter';
+      font-style: normal;
+      margin-right: 6px;
+    }
+
+    #left-button, #right-button{
+      top: 57%;
+  }
+
+    .slider-item{
+    justify-content: normal;
+  }
+    .img-banner{
+    margin: 0;
+}
       }
