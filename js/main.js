@@ -1,7 +1,7 @@
 // _______Бургер меню_______
 const menuIcon = document.querySelector('#menu-icon');
 const popup = document.querySelector('#popup');
-const body = document.body;
+const { body } = document;
 
 // Клонируем меню, чтобы задать свои стили для мобильной версии
 const menu = document.querySelector('#menu-list').cloneNode(1);
@@ -37,6 +37,38 @@ function closeOnClick() {
   popup.classList.remove('open');
   menuIcon.classList.remove('active');
   body.classList.remove('noscroll');
+}
+
+// _______Выбор языка_______
+const menuLanguage = document.querySelector('#language');
+const popupLanguage = document.querySelector('#popup-language');
+
+const menuLanguageList = document.querySelector('#language-list').cloneNode(1);
+
+menuLanguage.addEventListener('click', menuLanguageHandler);
+
+function menuLanguageHandler(e) {
+  e.preventDefault();
+
+  popupLanguage.classList.toggle('open-lang');
+  menuLanguage.classList.toggle('active-lang');
+
+  renderPopupLanguage();
+}
+
+function renderPopupLanguage() {
+  popupLanguage.appendChild(menuLanguageList);
+}
+
+const linksMenu = Array.from(menuLanguageList.children);
+
+linksMenu.forEach((link1) => {
+  link1.addEventListener('click', closeOnClickLang);
+});
+
+function closeOnClickLang() {
+  popupLanguage.classList.remove('open-lang');
+  menuLanguage.classList.remove('active-lang');
 }
 
 // _______Слайдер_______
