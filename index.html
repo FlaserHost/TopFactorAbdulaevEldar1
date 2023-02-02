@@ -8,9 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/results.scss">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
@@ -174,9 +178,220 @@
     </div>
 </section>
 
+<section class="info-slider swiper">
+    <div class="buttons-info">
+    <div class="info-slider__content">
+        <div class="info-slider__cards swiper-wrapper">
+            <div class="info-slider__card swiper-slide">
+                <div class="info-slider__card-title">
+                    <h2>Recruitment managment</h2>
+                </div>
+                <div class="info-slider__card-list">
+                    <ul>
+                        <li>
+                            <img src="images/check.png" alt="check">
+                            <p>Modern CRM system for recruiter</p>
+                        </li>
+                        <li>
+                            <img src="images/check.png" alt="check">
+                            <p>Automatic formation of “recruitment funnel”</p>
+                        </li>
+                        <li>
+                            <img src="images/check.png" alt="check">
+                            <p>Input assessment by AI, virtual recruiter for the organization of video interviews </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-slider__card-link">
+                    <a href="#">Learn more</a>
+                    <img src="images/arrow-more.png" alt="Learn more">
+                </div>
+            </div>
+            <div class="info-slider__card swiper-slide">
+                <div class="info-slider__card-title">
+                    <h2>Managment by Goals and KPI</h2>
+                </div>
+                <div class="info-slider__card-list">
+                    <ul>
+                        <li>
+                            <img src="images/check.png" alt="check">
+                            <p>Perfomance managment & Payroll</p>
+                        </li>
+                        <li>
+                            <img src="images/check.png" alt="check">
+                            <p>Portal act for each employee-KPI in real time</p>
+                        </li>
+                        <li>
+                            <img src="images/check.png" alt="check">
+                            <p>Task delegating to employees and flexible strategy for the whole company</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-slider__card-link">
+                    <a href="#">Learn more</a>
+                    <img src="images/arrow-more.png" alt="Learn more">
+                </div>
+            </div>
+            <div class="info-slider__card swiper-slide">
+                <div class="info-slider__card-title">
+                    <h2 class="talent-title">Talent managment</h2>
+                </div>
+                <div class="info-slider__card-list">
+                    <ul>
+                        <li>
+                            <img src="images/check.png" alt="check">
+                            <p>Competency assessment and stuff adaption</p>
+                        </li>
+                        <li>
+                            <img src="images/check.png" alt="check">
+                            <p>Individual development plans for everyone</p>
+                        </li>
+                        <li>
+                            <img src="images/check.png" alt="check">
+                            <p>Internal corporate university and staff reserve of the company</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-slider__card-link">
+                    <a href="#">Learn more</a>
+                    <img src="images/arrow-more.png" alt="Learn more">
+                </div>
+            </div>  
+        </div>
+    </div>
+   
+        <div class="right-button-info">
+            <img src="images/right.svg" alt="right">
+        </div>
+        <div class="left-button-info">
+            <img src="images/left.svg" alt="left">
+        </div>
+    </div>
+</section>
+<section class="section-results">
+    <div class="results">
+        <div class="results__body container">
+            <div class="results__title title-block">
+                PRACTICAL RESULTS FROM OUR OFFERED SOLUTIONS IMPLEMENTATION
+            </div>
+            <div class="results__row">
+                <div class="results__column">
+                    <div class="item-results">
+                        <div class="item-results__icon">
+                            <img src="/images/results/profit.png" alt="profit">
+                        </div>
+                        <div class="item-results__title  item-results__title-limit">
+                            Profit markup <b>of 17%</b> 
+                        </div>
+                        <div class="item-results__text">
+                            Companies with high employee engagement have 17% more operating profit, according to Towers Perrin
+                        </div>
+                    </div>
+                </div>
+                <div class="results__column">
+                    <div class="item-results">
+                        <div class="item-results__icon">
+                            <img src="/images/results/driving.png" alt="driving">
+                        </div>
+                        <div class="item-results__title">
+                            Driving up productivity <b>of 21%</b> 
+                        </div>
+                        <div class="item-results__text">
+                            In companies with integrated talent management system employee turnover is 40% lower according to Bersin & Associates
+                        </div>
+                    </div>
+                </div>
+                <div class="results__column">
+                    <div class="item-results">
+                        <div class="item-results__icon">
+                            <img src="/images/results/growth.png" alt="growth">
+                        </div>
+                        <div class="item-results__title">
+                            Growth of income per emplyee <b>of 26%</b>
+                        </div>
+                        <div class="item-results__text">
+                            In companies with integrated talent management system 26% higher productivity per employee according to Bersin & Associates
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="results__row">
+                <div class="results__column">
+                    <div class="item-results">
+                        <div class="item-results__icon">
+                            <img src="/images/results/turnover.png" alt="turnover">
+                        </div>
+                        <div class="item-results__title">
+                            Employee turnover reduction <b>of 40%</b>
+                        </div>
+                        <div class="item-results__text">
+                            In companies with integrated talent management system employee turnover is 40% lower according to Bersin & Associates
+                        </div>
+                    </div>
+                </div>
+                <div class="results__column">
+                    <div class="item-results">
+                        <div class="item-results__icon">
+                            <img src="/images/results/busines.png" alt="busines">
+                        </div>
+                        <div class="item-results__title">
+                            Business value growth <b>of 30%</b>
+                        </div>
+                        <div class="item-results__text">
+                            According to Russian practice, implementing KPI system increases cost of business of 30%
+                        </div>
+                    </div>
+                </div>
+                <div class="results__column">
+                    <div class="item-results">
+                        <div class="item-results__icon">
+                            <img src="/images/results/retention.png" alt="retention">
+                        </div>
+                        <div class="item-results__title">
+                            Employee retention <b>up to 35%</b> 
+                        </div>
+                        <div class="item-results__text">
+                            The ability to choose benefits increases the loyalty of the organization’s employees and contributes to employee retention to 35% according to Ernst & Young
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> 
     <script src="js/main.js"></script>
+    <script>
+        const swiper = new Swiper(".info-slider__content", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    // grabCursor: 'true',
+    navigation: {
+      nextEl: ".right-button-info",
+      prevEl: ".left-button-info",
+    },
+
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+    },
+  });
+    </script>
 </body>
 </html>
-
-
-

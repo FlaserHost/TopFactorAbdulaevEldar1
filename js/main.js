@@ -71,7 +71,7 @@ function closeOnClickLang() {
   menuLanguage.classList.remove('active-lang');
 }
 
-// _______Слайдер_______
+// _______Banner-slider_______
 const dots = document.getElementsByClassName('dots-item');
 const dotsArea = document.getElementsByClassName('dots-block')[0];
 const slides = document.getElementsByClassName('slider-item');
@@ -118,3 +118,4 @@ dotsArea.onclick = function (e) {
     }
   }
 };
+
