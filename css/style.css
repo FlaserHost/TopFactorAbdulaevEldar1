@@ -242,7 +242,7 @@
     max-width: 1920px;
     height: 677px;
     margin: 0 auto;
-    background-image: url("/images/invitation.jpg");
+    background: url("../images/invitation.jpg") 50%/cover no-repeat ;
     background-blend-mode: luminosity;
 }
 .invitation__title {
