@@ -348,7 +348,7 @@
     width: 100%;
     bottom: 0;
     height: 5px;
-    left: 0%;
+    left: 0;
     background-color: #74D6F8;
 }
 
@@ -426,3 +426,30 @@
 }
 
 /* Section blog-webinars */
+
+/* Section our-results */
+
+.our-results{
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.our-results__background{
+    position: absolute;
+    padding: 5px 86px 0px 64px; 
+    object-fit: cover; 
+}
+
+/* .our-results__title{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 100;
+    left: 50%;
+} */
+
+
+/* Section our-results */
