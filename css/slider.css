@@ -168,25 +168,25 @@
     margin: 0 auto;
     background: rgba(112, 196, 255, 0.06);
   }
-.info-slider__content{
+.slider__content{
     /* position: relative; */
     max-width: 1170px;
     margin: 0 auto;
     padding: 0px 15px;
     overflow: hidden;
+    margin-top: 50px;
   }
 
-  .info-slider__cards{
+  .slider__cards{
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  .info-slider__card{
+  .slider__card{
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
     width: 360px;
     height: 402px;
     background: #FFFFFF;
@@ -194,7 +194,7 @@
     border-radius: 10px;
     z-index: 50;
   }
-  .info-slider__card:hover{
+  .slider__card:hover{
     box-shadow: -6px 3px 50px rgba(0, 0, 0, 0.25);
     z-index: 50;
   }
@@ -242,19 +242,20 @@
     margin-left: 10px;
   }
 
-  .info-slider__card-link{
+  .slider__card-link{
+    position: absolute;
     display: flex;
     align-items: center;
-    padding: 38px 0px 0px 65px ;
+    padding: 352px 0px 0px 71px;
   }
-  .info-slider__card-link > a{
+  .slider__card-link > a{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     color: #005C9D;
   }
-  .info-slider__card-link > img{
+  .slider__card-link > img{
    padding-left: 5px;
    cursor: pointer;
   }
@@ -264,9 +265,8 @@
     padding-top: 10px;
   }
 
-  .buttons-info{
+  .buttons-swiper{
     max-width: 1220px;
-    height: 100%;
     position: relative;
     padding: 0 5px;
     margin: 0 auto;
@@ -292,3 +292,55 @@
   /* Section info-slider */
 
 
+/* Section our cases */
+
+.our-cases{
+  max-width: 1920px;
+  height: 615px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background: rgba(112, 196, 255, 0.06);
+}
+
+.slider__card-logo{
+  padding: 38px 0px 0px 25px;
+}
+
+.slider__card-text{
+  position: absolute;
+  padding: 92px 50px 0px 25px;
+  max-width: 285px;
+}
+
+.cases-link{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 289px 0px 0px 25px;
+}
+
+.cases-link > a{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #005C9D;
+}
+.cases-link > img{
+ padding-left: 5px;
+ cursor: pointer;
+}
+
+.cases-title{
+  padding-top: 37px;
+}
+.cases-content{
+  margin-top: 48px;
+}
+
+.cases-card{
+  height: 350px;
+  z-index: 1000;
+}
+
+/* Section our cases */

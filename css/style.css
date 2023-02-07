@@ -326,15 +326,16 @@
     flex-wrap: wrap;
     padding: 25px 0px 0px 0px;
 }
-.blog__title, .webinars__title{
+/* .blog__title, .webinars__title{
     display: inline-block;
-}
+} */
 .blog__content-item{
     max-width: 263px;
     padding-bottom: 31px;
 }
 
 .title-style{
+    display: inline-block;
     position: relative;
     font-weight: 700;
     font-size: 30px;
@@ -371,10 +372,8 @@
     padding-top: 24px;
 }
 
-
-
 .webinars{
-    width: 555px;
+    max-width: 555px;
 }
 
 .webinars__content{
@@ -382,7 +381,7 @@
     border: 1px solid #005C9D;
     border-radius: 5px;
     margin: 23px 0px 144px 0px;
-    width: 100%;
+    /* width: 100%; */
     height: 468px;
     display: flex;
     flex-direction: column;
@@ -419,7 +418,6 @@
     margin-bottom: 67px;
 }
 
-
 .webinars__button{
     display: flex;
     justify-content: end;
@@ -430,26 +428,72 @@
 /* Section our-results */
 
 .our-results{
-    position: relative;
     max-width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.results-content{
+    max-width: 1770px;
+    height: 1084px;
     margin: 0 auto;
 }
 .our-results__background{
-    position: absolute;
-    padding: 5px 86px 0px 64px; 
-    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: url("../images/our-results.jpg") 50%/cover no-repeat ;
+    background-blend-mode: luminosity;
 }
 
-/* .our-results__title{
-    position: absolute;
+.title-style-block{
     display: flex;
     align-items: center;
-    display: inline-block;
     justify-content: center;
     margin: 0 auto;
     z-index: 100;
-    left: 50%;
-} */
-
+}
 
 /* Section our-results */
+
+
+/* Section our-clients */
+
+.our-clients{
+    max-width: 1920px;
+    height: 400px;
+    margin: 0 auto;
+}
+.our-clients__title{
+    margin-bottom: 40px;
+}
+
+.our-clients__logos1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.our-clients__logos2{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-item{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.logo-item:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.logo-item--active{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.logo-item--active:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* Section our-clients */
+
