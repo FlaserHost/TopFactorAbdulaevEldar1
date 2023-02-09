@@ -616,3 +616,99 @@
 }
 
 /* Section cooperation */
+
+
+/* Section contact-footer */
+
+.contact-footer{
+    max-width: 1920px;
+    height: 333px;
+    margin: 0 auto;
+    border-bottom: 1px solid #005C9D;
+}
+
+.contact__columns{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 43px;
+}
+
+.cloumn__contact{
+    /* max-width: 263px; */
+}
+.contact-list{
+    display: flex;
+}
+.cloumn__contact-location{
+    margin-top: 18px;
+}
+
+.location, .mail, .chat{
+    margin-left: 3px;
+}
+.location{
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    max-width: 229px;
+    padding-bottom: 7px;
+}
+.mail{
+    padding-bottom: 11px;
+}
+.mail, .chat {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #005C9D;
+}
+.mail:hover, .chat:hover {
+    color: #078EEE;
+}
+
+.cloumn__contact-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    max-width: 230px;
+
+}
+
+.column__title{
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #005C9D;
+    padding-top: 18px;
+}
+.column__menu{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 25px;
+}
+
+.column__company{
+    padding-left: 31px;
+}
+.column__platform{
+    padding-left: 77px;
+}
+.column__partners{
+    padding-left: 80px;
+}
+.column__study{
+    padding-left: 22px;
+}
+
+
+.column__menu > ul > li{
+    padding-bottom: 20px;
+}
+.column__menu > ul > li:hover{
+    color: #005C9D;
+}
+
+
+/* Section contact-footer */
