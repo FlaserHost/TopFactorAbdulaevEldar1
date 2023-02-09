@@ -685,7 +685,6 @@
 .column__menu{
     font-weight: 400;
     font-size: 16px;
-    color: #000000;
     padding-top: 25px;
 }
 
@@ -710,5 +709,44 @@
     color: #005C9D;
 }
 
-
 /* Section contact-footer */
+
+/* Footer */
+.footer{
+    max-width: 1920px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.footer__content{
+    display: flex;
+}
+
+.footer__reserved{
+    padding: 45px 0px 0px 10px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footer__link-group{
+    padding-top: 19px;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #005C9D;
+}
+
+.footer__link-group > ul > li {
+    padding-bottom: 15px;
+}
+.footer__link-group > ul > li:hover{
+    color: #078EEE;
+}
+.group1{
+    padding-left: 235px;
+}
+.group2{
+    padding-left: 64px;
+}
+
+/* Footer */
