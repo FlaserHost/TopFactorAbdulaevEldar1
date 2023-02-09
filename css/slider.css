@@ -342,5 +342,15 @@
   height: 350px;
   z-index: 1000;
 }
-
+.cases-pagination{
+  margin-bottom: 35px;
+}
+.swiper-pagination-bullet {
+  border-radius: 50%;
+  width: 10px;
+	height: 10px;
+}
+.swiper-pagination-bullet-active{
+  background: #005C9D;
+}
 /* Section our cases */

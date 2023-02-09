@@ -232,7 +232,9 @@
     left: 36%;
     background-color: #74D6F8;
     /* margin: 0px 0px 0px -55px; */
+    
 }
+
 /* Section results */
 
 
@@ -497,3 +499,120 @@
 
 /* Section our-clients */
 
+
+/* Section cooperation */
+
+.cooperation{
+    max-width: 1920px;
+    height: 656px;
+    margin: 0 auto;
+    border-bottom: 3px solid #005C9D;
+}
+.cooperation__title{
+    color: #005C9D;
+    padding: 44px 0px 17px 0px;
+}
+
+.cooperation__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+} 
+
+ .card-item{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.card-item__title{
+    margin: 0  auto;
+    position: relative;
+    text-align: center;
+    width: 276px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 32px 0px 23px 0px;
+}
+.card-item__title::after{
+    content: '';
+    position: absolute;
+    width: 147px;
+    margin: 0 auto;
+    border: 2px solid #FFFFFF;
+    bottom: 0;
+    left: 25%;
+}
+
+.card-item__list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 23px;
+    padding-left: 45px;
+}
+.card-item__list > ul > li {
+    padding-bottom: 22px;
+    list-style-type: initial;
+}
+.card-item__list > ul > li::marker {
+    /* width: 10px;
+    height: 10px; */
+    font-size: 27px;
+    color:#005C9D;
+}
+.castom-marker > ul > li::marker {
+    /* width: 10px;
+    height: 10px; */
+    font-size: 27px;
+    color: #74D6F8;;
+}
+
+
+.card-item__background1{
+    border-radius: 5px;
+    height: 305px;
+    background: linear-gradient(0deg, rgba(68, 164, 220, 0.87), rgba(68, 164, 220, 0.87)), url('../images/cooperation/bg-card1.png');
+}
+.card-item__background1:hover{
+    background: linear-gradient(0deg, rgba(42, 95, 125, 0.87), rgba(42, 95, 125, 0.87)), url('../images/cooperation/bg-card1.png');
+}
+.card-item__background2{
+    border-radius: 5px;
+    height: 305px;
+    background: linear-gradient(0deg, rgba(34, 175, 223, 0.74), rgba(34, 175, 223, 0.74)), url('../images/cooperation/bg-card2.png');
+}
+.card-item__background2:hover{
+    background: linear-gradient(0deg, rgba(21, 86, 108, 0.74), rgba(21, 86, 108, 0.74)), url('../images/cooperation/bg-card2.png');
+}
+.card-item__background3{
+    border-radius: 5px;
+    height: 305px;
+    background: linear-gradient(0deg, rgba(0, 92, 157, 0.63), rgba(0, 92, 157, 0.63)), url('../images/cooperation/bg-card3.png');
+}
+.card-item__background3:hover{
+    background: linear-gradient(0deg, rgba(0, 34, 57, 0.63), rgba(0, 34, 57, 0.63)), url('../images/cooperation/bg-card3.png');
+}
+
+.card-item__button{
+    background:  #005C9D;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 18px;
+    height: 100px;
+    border: none;
+
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.card-item__button:hover{
+    box-shadow: -6px -6px 13px rgba(0, 0, 0, 0.25), 9px 16px 36px rgba(0, 0, 0, 0.25);
+}
+
+/* Section cooperation */

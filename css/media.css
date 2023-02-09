@@ -58,7 +58,7 @@
             cursor: pointer;
             transition: 0.2s;
         }
-        span {
+        .bar {
             position: absolute;
             top: calc(50% - 1px);
             width: 100%;
@@ -66,10 +66,10 @@
             background-color: #005C9D;
             transition: 0.2s;
         }
-        span:first-child{
+        .bar:first-child{
             top: 0;
         }
-        span:last-child{
+        .bar:last-child{
             top: auto;
             bottom: 0;
         }
