@@ -234,7 +234,7 @@
   .item-text{
     font-weight: 400;
     font-size: 18px;
-    max-width: 250px;
+    width: 250px;
   }
 
   .slider__card-link{

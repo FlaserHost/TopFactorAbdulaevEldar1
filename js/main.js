@@ -119,3 +119,8 @@ dotsArea.onclick = function (e) {
   }
 };
 
+// ________onClick learnMore________
+
+document.getElementById('resBtnMore').onclick = function() {
+document.getElementById('results__row').classList.toggle('results__row--active');
+}
