@@ -168,11 +168,9 @@
 
 .section-results {
     max-width: 1920px;
-    max-height: 1200px;
     margin: 0 auto;
 }
 .results {
-    /* max-height: 573px; */
     margin: 72px 0px;
 }
 
@@ -201,7 +199,6 @@
     margin-bottom: 15px;
 }
 .item-results__title-limit{
-    /* padding-right: 100px; */
     max-width: 175px;
 }
 .item-results__text {
@@ -215,11 +212,9 @@
 
 .title-block {
     position: relative;
-    font-style: normal;
     max-width: 870px;
     font-weight: 700;
     font-size: 32px;
-    line-height: 39px;
     text-align: center;
     text-transform: uppercase;
     color: #013C66;
@@ -229,14 +224,15 @@
 }
 .title-block::after{
     content: '';
+    display: block;
     position: absolute;
     width: 320px;
     bottom: 0;
     height: 5px;
-    left: 280px;
     background-color: #74D6F8;
-    /* margin: 0px 0px 0px -55px; */
-    
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .results__button{
@@ -251,8 +247,10 @@
     border: none;
     cursor: pointer;
 }
+.arrow-down--active{
+    transform: rotate(180deg)
+}
 /* Section results */
-
 
 
 /* Section invitation */
@@ -262,6 +260,7 @@
     margin: 0 auto;
     background: url("../images/invitation.jpg") 50%/cover no-repeat ;
     background-blend-mode: luminosity;
+    overflow: hidden;
 }
 .invitation__title {
     text-transform: uppercase;
@@ -279,8 +278,8 @@
     font-weight: 500;
     font-size: 30px;
     color: #FFFFFF;
-    margin: 0px 0px 45px 65px;
-    
+    padding: 0px 5px 45px 5px; 
+    margin: 0 auto;
 }
 .invitation__list {
     display: flex;

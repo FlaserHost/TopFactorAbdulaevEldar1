@@ -123,4 +123,5 @@ dotsArea.onclick = function (e) {
 
 document.getElementById('resBtnMore').onclick = function() {
 document.getElementById('results__row').classList.toggle('results__row--active');
+document.getElementById('arrow-down').classList.toggle('arrow-down--active')
 }
