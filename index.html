@@ -430,6 +430,49 @@
                 <button class="button-style">Move To Blog</button>
             </div>
         </div>
+        <div class="blog-slider blog-mobile">
+            <div class="buttons-swiper">
+            <div class="blog-slider__content">
+            <div class="blog__title title-style">Blog</div>
+            <div class="blog__content-mobile swiper-wrapper">
+                <div class="blog__content-item-mobile swiper-slide">
+                    <div class="blog__content-img">
+                        <img src="./images/blog/motivation.jpg" alt="motivation">
+                    </div>
+                    <div class="blog__content-date">17.10.2022</div>
+                    <div class="blog__content-name"><a href="#">HOW TO CREATE A DREAM TEAM: EFFECTIVE MOTIVATION FOR IT</a></div>
+                </div>
+                <div class="blog__content-item-mobile swiper-slide">
+                    <div class="blog__content-img">
+                        <img src="./images/blog/adoptation.jpg" alt="adoptation">
+                    </div>
+                    <div class="blog__content-date">21.10.2022</div>
+                    <div class="blog__content-name"><a href="#">FOUR ELEMENTS OF STAFF ADOPTATION</a></div>
+                </div>
+                <div class="blog__content-item-mobile swiper-slide">
+                    <div class="blog__content-img">
+                        <img src="./images/blog/engagement.jpg" alt="engagement">
+                    </div>
+                    <div class="blog__content-date">17.10.2022</div>
+                    <div class="blog__content-name"> <a href="#">ENGAGEMENT AND MOTIVATION FACTORS</a></div>
+                </div>
+                <div class="blog__content-item-mobile swiper-slide">
+                    <div class="blog__content-img">
+                        <img src="./images/blog/kpi.jpg" alt="kpi">
+                    </div>
+                    <div class="blog__content-date">21.10.2022</div>
+                    <div class="blog__content-name"> <a href="#">PERFECT KPI EFFICIENCY TECHNOLOGY</a></div>
+                </div>
+            </div>
+            </div>
+                <div class="right-button-info right-button-blog">
+                    <img src="images/right.svg" alt="right">
+                </div>
+                <div class="left-button-info left-button-blog">
+                    <img src="images/left.svg" alt="left">
+                </div>
+        </div>
+        </div>
         <div class="webinars">
             <div class="webinars__title title-style">Webinars</div>
             <div class="webinars__content">
@@ -747,6 +790,36 @@
     },
   });
     </script>
+        <script>
+            const swiperBlog = new Swiper(".blog-slider__content", {
+        slidesPerView:2,
+        spaceBetween: 20,
+        loop: true,
+        centerSlide: 'true',
+        fade: 'true',
+        // grabCursor: 'true',
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        navigation: {
+          nextEl: ".right-button-blog",
+          prevEl: ".left-button-blog",
+        },
+    
+        // breakpoints:{
+        //     0: {
+        //         slidesPerView: 1,
+        //     },
+        //     658: {
+        //         slidesPerView: 2,
+        //     },
+        //     960: {
+        //         slidesPerView: 3,
+        //     },
+        // },
+      });
+        </script>
 </body>
 </html>
 
