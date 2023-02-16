@@ -180,6 +180,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* height: 450px; */
   }
 
   .slider__card{
@@ -337,6 +338,7 @@
 }
 
 .cases-card{
+  border-radius: 0px;
   height: 350px;
   z-index: 1000;
 }

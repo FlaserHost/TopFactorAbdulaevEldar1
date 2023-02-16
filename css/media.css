@@ -390,6 +390,9 @@
     padding: 350px 0px 0px 0px;
     left:30%
   }
+  .slider__content{
+    margin-top: 39px;
+  }
 }
       
 @media(max-width: 390px){   
@@ -639,34 +642,11 @@
     text-align: center;
     margin: 0 auto;
   }
+
   .blog{
     display: none;
   }
-  .blog-mobile{
-    display: initial;
-  }
-  .blog-slider__content{
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 0px 20px;
-    overflow: hidden;
-    /* margin-top: 50px; */
-  }
-  .blog__content-mobile{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .blog__content-item-mobile{
-    
-  }
-  .blog__content-img > img{
-    max-width: 306px;
-    max-height: 192px;
-  }
-
+  
 }
       
 @media (max-width: 768px){
@@ -681,12 +661,100 @@
 
 /* Section our-results */
 
+@media (max-width: 960px){
+}
+      
+@media (max-width: 768px){
+}
+      
+@media(max-width: 576px){      
+}
+      
+@media(max-width: 390px){      
+}
 
 /* Section our-clients */
 
 
 /* Section our-cases */
 
+@media (max-width: 1055px){
+  .slider__card-text{
+    padding: 92px 20px 0px 20px;
+  }
+}
+
+@media(max-width: 657px){
+
+  .cases-card{
+    align-items: center;
+  }
+
+  .slider__card-text{
+    max-width: 350px;
+    padding: 100px 20px 0px 27px;
+    margin: 0 auto;
+  }
+}    
+      
+@media(max-width: 576px){ 
+  .cases-title{
+    padding-top: 37px;
+    font-size: 24px;
+  } 
+
+  .our-cases{
+    height: 515px;
+  } 
+
+  .cases-content{
+    margin-top: 37px;
+  }
+     
+  .cases-card{
+    height: 300px;
+  }
+
+  .cases-link{
+    padding: 240px 0px 0px 27px;
+  }
+
+}
+@media (max-width: 450px){
+
+  .cases-card{
+    align-items: flex-start;
+  }
+  .slider__card-text{
+    max-width: 237px;
+    font-size: 16px;
+  }
+
+}
+      
+@media(max-width: 390px){ 
+
+  .our-cases{
+    height: 464px;
+  } 
+
+  .cases-card{
+    height: 285px;
+  }      
+
+  .cases-title{
+    padding-top: 24px;
+  }
+
+  .cases-content{
+    margin-top: 32px;
+  }
+ 
+  .cases-pagination{
+    margin-bottom: 20px;
+  }
+  
+}
 
 /* Section cooperation */
 
