@@ -508,7 +508,7 @@
     </div>
 </section> -->
 
-<!-- <section class="our-cases swiper">
+<section class="our-cases swiper">
     <div class="title-style-block">
         <div class="title-style cases-title">our cases</div>
     </div>
@@ -561,9 +561,9 @@
         </div>
     </div>
     <div class="swiper-pagination cases-pagination"></div>
-</section> -->
+</section>
 
-<!-- <section class="cooperation">
+<section class="cooperation">
     <div class="container">
         <div class="cooperation__title title-block">how to start cooperation with us?</div>
         <div class="cooperation__cards">
@@ -607,7 +607,64 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
+
+<section class="cooperation__slider swiper">
+    <div class="container">
+        <div class="cooperation__title title-block">how to start cooperation with us?</div>
+        
+        <div class="buttons-swiper">
+        <div class="cooperation__slider-content">
+            <div class="cooperation__cards swiper-wrapper">
+                <div class="card-item swiper-slide">
+                    <div class="card-item__background1">
+                        <div class="card-item__title">View the product functionality</div>
+                            <div class="card-item__list">
+                                <ul>
+                                    <li>Recruitment managment </li>
+                                    <li>Managment by goals and KPI</li>
+                                    <li>Talent managment </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <button class="card-item__button">get the presentation in pdf</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <div class="card-item__background2">
+                        <div class="card-item__title">Ask experts questions at online meeting</div>
+                            <div class="card-item__list">
+                                <ul>
+                                    <li>Tell us more about your tasks.</li>
+                                    <li>Fill in the brief.</li>
+                                    <li>Schedule appropriate date and time of calling.</li>
+                                </ul>
+                            </div>
+                    </div>
+                    <button class="card-item__button">schedule a free online demonstration</button>
+                </div>
+                <div class="card-item swiper-slide">
+                    <div class="card-item__background3">
+                        <div class="card-item__title">Test the product in the demo version</div>
+                            <div class="card-item__list castom-marker">
+                                <ul>
+                                    <li>Set product expectations.</li>
+                                    <li>Make a list of questions about the product for the consultant.</li>
+                                </ul>
+                            </div>
+                    </div>
+                    <button class="card-item__button">request a demo</button>
+                </div>
+            </div>
+        </div>
+            <div class="right-button-info">
+                <img src="images/right.svg" alt="right">
+            </div>
+            <div class="left-button-info">
+                <img src="images/left.svg" alt="left">
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="contact-footer">
     <div class="container">
@@ -866,7 +923,6 @@
 
 
 
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> 
     <script src="js/main.js"></script>
     <script>
@@ -899,6 +955,34 @@
     },
   });
     </script>
+
+    <script>
+    const cooperationSwiper = new Swiper(".cooperation__slider-content", {
+    slidesPerView: 2,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    // grabCursor: 'true',
+    navigation: {
+      nextEl: ".right-button-info",
+      prevEl: ".left-button-info",
+    },
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        658: {
+            slidesPerView: 2,
+        },
+       
+    },
+
+  });
+    </script>
+
+
+
         <!-- <script>
             const swiperBlog = new Swiper(".blog-content", {
         slidesPerView:1,

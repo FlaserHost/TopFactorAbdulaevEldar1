@@ -525,6 +525,10 @@
 
 /* Section cooperation */
 
+.cooperation__slider{
+    display: none;
+}
+
 .cooperation{
     max-width: 1920px;
     height: 656px;
@@ -537,6 +541,7 @@
 }
 
 .cooperation__cards{
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     margin-top: 53px;
@@ -546,13 +551,14 @@
     display: flex;
     flex-direction: column;
     width: 360px;
+    padding: 0px 10px 0px 10px;
 }
 
 .card-item__title{
     margin: 0  auto;
     position: relative;
     text-align: center;
-    width: 276px;
+    max-width: 276px;
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
@@ -573,8 +579,7 @@
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-    padding-top: 23px;
-    padding-left: 45px;
+    padding: 23px 5px 0px 45px;
 }
 .card-item__list > ul > li {
     padding-bottom: 22px;
