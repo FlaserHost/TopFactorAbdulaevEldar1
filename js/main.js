@@ -125,3 +125,200 @@ document.getElementById('resBtnMore').onclick = function() {
 document.getElementById('results__row').classList.toggle('results__row--active');
 document.getElementById('arrow-down').classList.toggle('arrow-down--active')
 }
+
+
+// Список Footer
+
+const listCompany = document.querySelector('#company');
+const popupList = document.querySelector('#popup-list');
+const imgCompany = document.querySelector('#img-company')
+
+const companyList = document.querySelector('#company-list').cloneNode(1);
+
+listCompany.addEventListener('click', listCompanyHandler);
+
+function listCompanyHandler(e) {
+  e.preventDefault();
+
+  popupList.classList.toggle('open-list');
+  listCompany.classList.toggle('active-list');
+  imgCompany.classList.toggle('active-img');
+
+  renderPopupList();
+}
+
+function renderPopupList() {
+  popupList.appendChild(companyList);
+}
+
+
+const listPlatfom = document.querySelector('#platform');
+const imgPlatform = document.querySelector('#img-platform')
+const popupListPlatform = document.querySelector('#popup-list-platform');
+
+
+const platformList = document.querySelector('#platform-list').cloneNode(1);
+
+listPlatfom.addEventListener('click', listPlatformHandler);
+
+function listPlatformHandler(e) {
+  e.preventDefault();
+
+  popupListPlatform.classList.toggle('open-list');
+  listPlatfom.classList.toggle('active-list');
+  imgPlatform.classList.toggle('active-img');
+
+  renderPopupListPlatform();
+}
+
+function renderPopupListPlatform() {
+  popupListPlatform.appendChild(platformList);
+}
+
+
+const listPartners = document.querySelector('#partners');
+const imgPartners = document.querySelector('#img-partners')
+const popupListPartners = document.querySelector('#popup-list-partners');
+
+
+const partnersList = document.querySelector('#partners-list').cloneNode(1);
+
+listPartners.addEventListener('click', listPartnersHandler);
+
+function listPartnersHandler(e) {
+  e.preventDefault();
+
+  popupListPartners.classList.toggle('open-list');
+  listPartners.classList.toggle('active-list');
+  imgPartners.classList.toggle('active-img');
+
+  renderPopupListPartners();
+}
+
+function renderPopupListPartners() {
+  popupListPartners.appendChild(partnersList);
+}
+
+
+const listStudy = document.querySelector('#study');
+const imgStudy = document.querySelector('#img-study')
+const popupListStudy = document.querySelector('#popup-list-study');
+
+
+const studyList = document.querySelector('#study-list').cloneNode(1);
+
+listStudy.addEventListener('click', listStudyHandler);
+
+function listStudyHandler(e) {
+  e.preventDefault();
+
+  popupListStudy.classList.toggle('open-list');
+  listStudy.classList.toggle('active-list');
+  imgStudy.classList.toggle('active-img');
+
+  renderPopupListStudy();
+}
+
+function renderPopupListStudy() {
+  popupListStudy.appendChild(studyList);
+}
+
+
+// Список Footer-small
+
+const listCompanySmall = document.querySelector('#company-small');
+const popupListSmall = document.querySelector('#popup-list-small');
+const imgCompanySmall = document.querySelector('#img-company-small')
+
+const companyListSmall = document.querySelector('#company-list-small').cloneNode(1);
+
+listCompanySmall.addEventListener('click', listCompanySmallHandler);
+
+function listCompanySmallHandler(e) {
+  e.preventDefault();
+
+  popupListSmall.classList.toggle('open-list');
+  listCompanySmall.classList.toggle('active-list');
+  imgCompanySmall.classList.toggle('active-img');
+
+  renderPopupListSmall();
+}
+
+function renderPopupListSmall() {
+  popupListSmall.appendChild(companyListSmall);
+}
+
+
+
+const listPlatfomSmall = document.querySelector('#platform-small');
+const imgPlatformSmall = document.querySelector('#img-platform-small')
+const popupListPlatformSmall = document.querySelector('#popup-list-platform-small');
+
+
+const platformListSmall = document.querySelector('#platform-list-small').cloneNode(1);
+
+listPlatfomSmall.addEventListener('click', listPlatformSmallHandler);
+
+function listPlatformSmallHandler(e) {
+  e.preventDefault();
+
+  popupListPlatformSmall.classList.toggle('open-list');
+  listPlatfomSmall.classList.toggle('active-list');
+  imgPlatformSmall.classList.toggle('active-img');
+
+  renderPopupListPlatformSmall();
+}
+
+function renderPopupListPlatformSmall() {
+  popupListPlatformSmall.appendChild(platformListSmall);
+}
+
+
+
+const listPartnersSmall = document.querySelector('#partners-small');
+const imgPartnersSmall = document.querySelector('#img-partners-small')
+const popupListPartnersSmall = document.querySelector('#popup-list-partners-small');
+
+
+const partnersListSmall = document.querySelector('#partners-list-small').cloneNode(1);
+
+listPartnersSmall.addEventListener('click', listPartnersSmallHandler);
+
+function listPartnersSmallHandler(e) {
+  e.preventDefault();
+
+  popupListPartnersSmall.classList.toggle('open-list');
+  listPartnersSmall.classList.toggle('active-list');
+  imgPartnersSmall.classList.toggle('active-img');
+
+  renderPopupListPartnersSmall();
+}
+
+function renderPopupListPartnersSmall() {
+  popupListPartnersSmall.appendChild(partnersListSmall);
+}
+
+
+
+const listStudySmall = document.querySelector('#study-small');
+const imgStudySmall = document.querySelector('#img-study-small')
+const popupListStudySmall = document.querySelector('#popup-list-study-small');
+
+
+const studyListSmall = document.querySelector('#study-list-small').cloneNode(1);
+
+listStudySmall.addEventListener('click', listStudySmallHandler);
+
+function listStudySmallHandler(e) {
+  e.preventDefault();
+
+  popupListStudySmall.classList.toggle('open-list');
+  listStudySmall.classList.toggle('active-list');
+  imgStudySmall.classList.toggle('active-img');
+
+  renderPopupListStudySmall();
+}
+
+function renderPopupListStudySmall() {
+  popupListStudySmall.appendChild(studyListSmall);
+}
