@@ -266,7 +266,7 @@
   .buttons-swiper{
     max-width: 1220px;
     position: relative;
-    padding: 0 5px;
+    padding: 0 10px;
     margin: 0 auto;
   }
 
@@ -277,14 +277,13 @@
     cursor: pointer;
     box-sizing: border-box;
     z-index: 190;
-    
 }
 
-    .left-button-info{
+  .left-button-info{
     left: 0;
 }
 
-    .right-button-info{
+  .right-button-info{
     right: 0;
 }
 

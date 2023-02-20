@@ -477,7 +477,6 @@
 
 .our-results{
     max-width: 1920px;
-    height: 1080px;
     margin: 0 auto;
 }
 .results-content{
@@ -511,6 +510,11 @@
     height: 400px;
     margin: 0 auto;
 }
+
+.our__clients-slider{
+    display: none;
+}
+
 .our-clients__title{
     margin-bottom: 40px;
 }

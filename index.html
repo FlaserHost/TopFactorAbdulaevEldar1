@@ -258,10 +258,10 @@
         </div>
     </div>
    
-        <div class="right-button-info">
+        <div class="right-button-info" id="info-rigth-button">
             <img src="images/right.svg" alt="right">
         </div>
-        <div class="left-button-info">
+        <div class="left-button-info" id="info-left-button">
             <img src="images/left.svg" alt="left">
         </div>
     </div>
@@ -430,10 +430,10 @@
             </div>
         </div>
         </div>
-        <div class="right-button-info">
+        <div class="right-button-info" id="blog-rigth-button">
             <img src="images/right.svg" alt="right">
         </div>
-        <div class="left-button-info">
+        <div class="left-button-info" id="blog-left-button">
             <img src="images/left.svg" alt="left">
         </div>
     </div>
@@ -508,16 +508,16 @@
     </div>
 </section>
 
-<!-- <section class="our-results">
+<section class="our-results">
     <div class="results-content">
         <div class="our-results__title title-style-block">
             <div class="title-style">Our results</div>
         </div>
         <div class="our-results__background"></div>
     </div>
-</section> -->
+</section>
 
-<!-- <section class="our-clients">
+<section class="our-clients">
     <div class="container">
         <div class="our-clients__title title-style-block">
             <div class="title-style">our clients</div>
@@ -557,7 +557,69 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
+
+<section class="our__clients-slider swiper">
+    <div class="our-clients__title title-style-block">
+        <div class="title-style">our clients</div>
+    </div>
+        <div class="buttons-swiper our__clients-buttons">
+            <div class="our__clients-content">
+                <div class="our__clients-logos swiper-wrapper">
+                    <div class="logos-item swiper-slide">
+                        <div class="logo-row-top">
+                            <div class="logo-square">
+                                <img class="" src="./images/clients/schlumberger.png" alt="schlumberger">
+                            </div>
+                            <div class="logo-square">
+                                <img class="" src="./images/clients/alabuga.png" alt="alabuga">
+                            </div>
+                            <div class="logo-square">
+                                <img class="" src="./images/clients/caspian.png" alt="caspian">
+                            </div>
+                        </div>
+                        <div class="logo-row-bottom">
+                            <div class="logo-square">
+                                <img class="" src="./images/clients/umatex.png" alt="umatex">
+                            </div>
+                            <div class="logo-rectangle">
+                                <img class="" src="./images/clients/chiesi.png" alt="chiesi">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="logos-item swiper-slide">
+                        <div class="logo-row-top">
+                            <div class="logo-rectangle">
+                                <img class="" src="./images/clients/galc.png" alt="galc">
+                            </div>
+                            <div class="logo-rectangle">
+                                <img class="" src="./images/clients/rgbrands.png" alt="rgbrands">
+                            </div>
+                            <div class="logo-square">
+                                <img class="" src="./images/clients/damate.png" alt="damate">
+                            </div>
+                        </div>
+                        <div class="logo-row-bottom">
+                            <div class="logo-rectangle">
+                                <img class="" src="./images/clients/bazel.png" alt="bazel">
+                            </div>
+                            <div class="logo-square">
+                                <img class="" src="./images/clients/33to.png" alt="33to">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="right-button-info" id="clients-right-button">
+                    <img src="images/right.svg" alt="right">
+                </div>
+                <div class="left-button-info" id="clients-left-button">
+                    <img src="images/left.svg" alt="left">
+                </div>
+        </div>
+    <div class="swiper-pagination our__clients-pagination"></div>
+</section>
 
 <section class="our-cases swiper">
     <div class="title-style-block">
@@ -604,10 +666,10 @@
             </div>  
         </div>
     </div>
-        <div class="right-button-info">
+        <div class="right-button-info" id="cases-rigth-button">
             <img src="images/right.svg" alt="right">
         </div>
-        <div class="left-button-info">
+        <div class="left-button-info" id="cases-left-button">
             <img src="images/left.svg" alt="left">
         </div>
     </div>
@@ -706,10 +768,10 @@
                 </div>
             </div>
         </div>
-            <div class="right-button-info">
+            <div class="right-button-info" id="cooperation-rigth-button">
                 <img src="images/right.svg" alt="right">
             </div>
-            <div class="left-button-info">
+            <div class="left-button-info" id="cooperation-left-button">
                 <img src="images/left.svg" alt="left">
             </div>
         </div>
@@ -975,8 +1037,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> 
     <script src="js/main.js"></script>
-    <script>
-        const swiper = new Swiper(".slider__content", {
+
+<script>
+    const swiper = new Swiper(".slider__content", {
     slidesPerView: 3,
     spaceBetween: 20,
     loop: true,
@@ -988,8 +1051,8 @@
         clickable: true,
       },
     navigation: {
-      nextEl: ".right-button-info",
-      prevEl: ".left-button-info",
+      nextEl: "#info-rigth-button",
+      prevEl: "#info-left-button",
     },
 
     breakpoints:{
@@ -1006,31 +1069,6 @@
   });
     </script>
 
-    <script>
-    const cooperationSwiper = new Swiper(".cooperation__slider-content", {
-    slidesPerView: 2,
-    spaceBetween: 25,
-    loop: true,
-    centerSlide: 'true',
-    fade: 'true',
-    // grabCursor: 'true',
-    navigation: {
-      nextEl: ".right-button-info",
-      prevEl: ".left-button-info",
-    },
-    breakpoints:{
-        0: {
-            slidesPerView: 1,
-        },
-        658: {
-            slidesPerView: 2,
-        },
-       
-    },
-
-  });
-    </script>
-
 <script>
     const blogSwiper = new Swiper(".blog__slider-content", {
     slidesPerView: 3,
@@ -1044,8 +1082,8 @@
         clickable: true,
       },
     navigation: {
-      nextEl: ".right-button-info",
-      prevEl: ".left-button-info",
+      nextEl: "#blog-rigth-button",
+      prevEl: "#blog-left-button",
     },
     breakpoints:{
         0: {
@@ -1063,36 +1101,82 @@
   });
     </script>
 
-        <!-- <script>
-            const swiperBlog = new Swiper(".blog-content", {
-        slidesPerView:1,
-        spaceBetween: 20,
-        loop: true,
-        centerSlide: 'true',
-        fade: 'true',
-        // grabCursor: 'true',
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-        navigation: {
-          nextEl: ".right-button-blog",
-          prevEl: ".left-button-blog",
+<script>
+    const ourClientsSwiper = new Swiper(".our__clients-content", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    // grabCursor: 'true',
+    pagination: {
+        el: ".our__clients-pagination",
+        clickable: true,
+      },
+    navigation: {
+      nextEl: "#clients-right-button",
+      prevEl: "#clients-left-button",
+    },
+
+  });
+    </script>
+
+<script>
+    const casesSwiper = new Swiper(".cases-content", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    // grabCursor: 'true',
+    pagination: {
+        el: ".cases-pagination",
+        clickable: true,
+      },
+    navigation: {
+      nextEl: "#cases-rigth-button",
+      prevEl: "#cases-left-button",
+    },
+
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
         },
-    
-        breakpoints:{
-            0: {
-                slidesPerView: 1,
-            },
-            658: {
-                slidesPerView: 2,
-            },
-            960: {
-                slidesPerView: 3,
-            },
+        658: {
+            slidesPerView: 2,
         },
-      });
-        </script> -->
+        960: {
+            slidesPerView: 3,
+        },
+    },
+  });
+    </script>
+
+<script>
+    const cooperationSwiper = new Swiper(".cooperation__slider-content", {
+    slidesPerView: 2,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    // grabCursor: 'true',
+    navigation: {
+      nextEl: "#cooperation-rigth-button",
+      prevEl: "#cooperation-left-button",
+    },
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        658: {
+            slidesPerView: 2,
+        },
+       
+    },
+
+  });
+    </script>
+
 </body>
 </html>
 
