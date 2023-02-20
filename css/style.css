@@ -337,11 +337,12 @@
 .blog{
     max-width: 555px;
 }
-.blog-slider{
+.blog__slider{
     display: none;
 }
 
 .blog__content{
+    box-sizing: border-box;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -350,6 +351,7 @@
 }
 
 .blog__content-item{
+    box-sizing: border-box;
     max-width: 263px;
     padding-bottom: 31px;
 }
@@ -366,6 +368,7 @@
 .title-style::after{
     content: '';
     position: absolute;
+    display: block;
     width: 100%;
     bottom: 0;
     height: 5px;
@@ -444,6 +447,26 @@
 .webinars__button{
     display: flex;
     justify-content: end;
+}
+.webinars__button-style{
+    text-transform: uppercase;
+    width: 263px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #005C9D;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    border: 0;
+    cursor: pointer;
+}
+.webinars__button-style:hover{
+    background-color: #078EEE;
+}
+.webinars__button-style:active{
+    background-color: #006AB6;
 }
 
 /* Section blog-webinars */

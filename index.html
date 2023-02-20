@@ -392,7 +392,56 @@
     </div>
 </section>
 
-<!-- <section class="blog-webinars">
+<section class="blog__slider swiper">
+    <div class="container">
+        <div class="title-center">
+            <div class="blog-titile title-style">Blog</div>
+        </div>
+        <div class="buttons-swiper">
+        <div class="blog__slider-content">
+        <div class="blog__cards swiper-wrapper">
+            <div class="blog__card-item swiper-slide">
+                <div class="blog__content-img">
+                    <img src="./images/blog/motivation.jpg" alt="motivation">
+                </div>
+                <div class="blog__content-date">17.10.2022</div>
+                <div class="blog__content-name"><a href="#">HOW TO CREATE A DREAM TEAM: EFFECTIVE MOTIVATION FOR IT</a></div>
+            </div>
+            <div class="blog__card-item swiper-slide">
+                <div class="blog__content-img">
+                    <img src="./images/blog/adoptation.jpg" alt="adoptation">
+                </div>
+                <div class="blog__content-date">21.10.2022</div>
+                <div class="blog__content-name"><a href="#">FOUR ELEMENTS OF STAFF ADOPTATION</a></div>
+            </div>
+            <div class="blog__card-item swiper-slide">
+                <div class="blog__content-img">
+                    <img src="./images/blog/engagement.jpg" alt="engagement">
+                </div>
+                <div class="blog__content-date">17.10.2022</div>
+                <div class="blog__content-name"> <a href="#">ENGAGEMENT AND MOTIVATION FACTORS</a></div>
+            </div>
+            <div class="blog__card-item swiper-slide">
+                <div class="blog__content-img">
+                    <img src="./images/blog/kpi.jpg" alt="kpi">
+                </div>
+                <div class="blog__content-date">21.10.2022</div>
+                <div class="blog__content-name"> <a href="#">PERFECT KPI EFFICIENCY TECHNOLOGY</a></div>
+            </div>
+        </div>
+        </div>
+        <div class="right-button-info">
+            <img src="images/right.svg" alt="right">
+        </div>
+        <div class="left-button-info">
+            <img src="images/left.svg" alt="left">
+        </div>
+    </div>
+</div>
+<div class="swiper-pagination blog-pagination"></div>
+</section>
+
+<section class="blog-webinars">
     <div class="container container-body">
         <div class="blog">
             <div class="blog__title title-style">Blog</div>
@@ -432,7 +481,9 @@
         </div>
         
         <div class="webinars">
-            <div class="webinars__title title-style">Webinars</div>
+            <div class="title-center">
+                <div class="webinars__title title-style">Webinars</div>
+            </div>
             <div class="webinars__content">
                 <div class="webinars__content-item">
                     <div class="webinars__content-text"> <a href="#">Perfomance managment of emplyees in new conditions.
@@ -451,11 +502,11 @@
                 </div>
             </div>
             <div class="webinars__button">
-                <button class="button-style">all events</button>
+                <button class="webinars__button-style" >all events</button>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- <section class="our-results">
     <div class="results-content">
@@ -611,13 +662,12 @@
 
 <section class="cooperation__slider swiper">
     <div class="container">
-        <div class="cooperation__title title-block">how to start cooperation with us?</div>
-        
+        <div class="cooperation__title title-block">how to start cooperation with us?</div> 
         <div class="buttons-swiper">
         <div class="cooperation__slider-content">
             <div class="cooperation__cards swiper-wrapper">
                 <div class="card-item swiper-slide">
-                    <div class="card-item__background1">
+                    <div class="card-item__background1 card-size">
                         <div class="card-item__title">View the product functionality</div>
                             <div class="card-item__list">
                                 <ul>
@@ -630,7 +680,7 @@
                     <button class="card-item__button">get the presentation in pdf</button>
                 </div>
                 <div class="card-item swiper-slide">
-                    <div class="card-item__background2">
+                    <div class="card-item__background2 card-size">
                         <div class="card-item__title">Ask experts questions at online meeting</div>
                             <div class="card-item__list">
                                 <ul>
@@ -643,7 +693,7 @@
                     <button class="card-item__button">schedule a free online demonstration</button>
                 </div>
                 <div class="card-item swiper-slide">
-                    <div class="card-item__background3">
+                    <div class="card-item__background3 card-size">
                         <div class="card-item__title">Test the product in the demo version</div>
                             <div class="card-item__list castom-marker">
                                 <ul>
@@ -981,7 +1031,37 @@
   });
     </script>
 
+<script>
+    const blogSwiper = new Swiper(".blog__slider-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    // grabCursor: 'true',
+       pagination: {
+        el: ".blog-pagination",
+        clickable: true,
+      },
+    navigation: {
+      nextEl: ".right-button-info",
+      prevEl: ".left-button-info",
+    },
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        450: {
+            slidesPerView: 2,
+        },
 
+        768: {
+            slidesPerView: 2,
+        },
+    },
+
+  });
+    </script>
 
         <!-- <script>
             const swiperBlog = new Swiper(".blog-content", {
