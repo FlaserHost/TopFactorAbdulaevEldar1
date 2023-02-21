@@ -1085,6 +1085,12 @@
   .column__partners{
     padding-left: 15px;
   }
+  .column__title{
+    height: 81px;
+  }
+  .column__menu{
+    padding-top: 0px;
+}
 
 }
       

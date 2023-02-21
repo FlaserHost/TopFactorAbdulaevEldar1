@@ -173,7 +173,7 @@
     margin: 0 auto;
     padding: 0px 15px;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 45px;
   }
 
   .slider__cards{
@@ -242,7 +242,7 @@
     position: absolute;
     display: flex;
     align-items: center;
-    padding: 350px 0px 0px 71px;
+    padding: 350px 0px 0px 70px;
   }
 
   .slider__card-link > a{
@@ -254,6 +254,7 @@
   }
 
   .slider__card-link > img{
+    padding-top: 3px;
     padding-left: 5px;
     cursor: pointer;
   }
@@ -314,7 +315,7 @@
   position: absolute;
   display: flex;
   align-items: center;
-  padding: 289px 0px 0px 25px;
+  padding: 291px 0px 0px 25px;
 }
 
 .cases-link > a{
@@ -325,12 +326,13 @@
   color: #005C9D;
 }
 .cases-link > img{
- padding-left: 5px;
- cursor: pointer;
+  padding-top: 5px;
+  padding-left: 5px;
+  cursor: pointer;
 }
 
 .cases-title{
-  padding-top: 37px;
+  padding-top: 35px; 
 }
 .cases-content{
   margin-top: 48px;
@@ -341,8 +343,11 @@
   height: 350px;
   z-index: 1000;
 }
+.rosatom{
+  margin-left: 5px;
+}
 .cases-pagination{
-  margin-bottom: 35px;
+  margin-bottom: 47px;
 }
 .swiper-pagination-bullet {
   border-radius: 50%;
