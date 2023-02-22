@@ -168,7 +168,7 @@
   }
 
   .logo{
-    margin: 13px 0px 0px 5px;
+    margin: 15px 0px 0px 4px;
   }
 
   .nav1{
@@ -178,7 +178,7 @@
   .menu-icon{
     width: 25px;
     height: 18px;
-    margin-right: 5px;
+    margin-right: 6px;
     margin-top: 10px;
   }
 
@@ -200,7 +200,6 @@
 
   .text-contact{
     max-width: 450px;
-    /* height: 60px; */
     font-size: 16px;
   }
 
@@ -215,32 +214,44 @@
 @media(max-width: 576px){
 
   .text-contact{
-    max-width: 225px;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 18px;
     font-weight: 500;
   }
 
   .button-contact{
+    margin-right: 15px;
+  }
+}
+
+@media(max-width: 476px){
+
+  .text-contact{
+    line-height: 15px;
+    font-size: 12px;
+  }
+
+  .button-contact{
+    margin-right: 5px;
     min-width: 123px;
     min-height: 35px;
     font-weight: 700;
     font-size: 12px;
   }
-
 }
 
 @media(max-width: 390px){
 
-  .text-button{
-    padding: 0px 7px 8px 20px;
+  .contact-us{
+    margin-top: 8px;
+}
+  .text-contact{
+    padding: 20px 0px 27px 5px;
   }
-  .contact{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-  }
+
   .button-contact{
-    margin-left: 15px;
+    margin-right: 7px;
+    margin-bottom: 7px;
   }
 }
 
@@ -433,6 +444,7 @@
     align-items: center;
     cursor: pointer;
     z-index: 200;
+    margin-top: 13px;
 }   
 
 }
@@ -447,6 +459,9 @@
   }
   .results__row--active{
     max-height: 1200px;
+  }
+  .results__column {
+    margin-bottom: 40px;
   }
 
 }
@@ -472,7 +487,10 @@
 
 }
       
-@media(max-width: 390px){   
+@media(max-width: 390px){  
+  .results__body{
+    padding: 0px 22px;
+  } 
   .results__row {
     max-height: 340px;
   }
@@ -482,12 +500,17 @@
   }
      
   .results {
-    margin: 27px 0px 19px 0px;
+    margin: 24px 0px 18px 0px;
+  }
+
+  .results__column {
+    margin-bottom: 37px;
   }
 
   .item-results__text {
     max-width: 349px;
   }
+
   
 }
 
@@ -575,6 +598,11 @@
   .section-invitation{
     height: 422px;
   }   
+
+  .invitation__title {
+    padding: 47px 30px 17px 0px;
+  }
+
   .invitation__subtitle {
     font-size: 16px;
     padding: 0px 5px 21px 5px; 
@@ -582,6 +610,10 @@
 
   .invitation__list {
     padding: 0px 0px 0px 5px;
+  }
+
+  .invitation__list-item > p {
+    padding: 0px 0px 0px 15px;
   }
 
   .invitation__list-item {
@@ -704,7 +736,7 @@
   .webinars__button {
     align-items: center;
     justify-content: center;
-    margin-bottom: 54px;
+    margin-bottom: 55px;
   }
 
 }
@@ -728,6 +760,13 @@
   .title-style {
     font-size: 24px;
   }  
+  .webinars__title{
+    margin-right: 20px;
+  }
+  .webinars{
+    margin-left: 15px;
+    margin-top: 7px;
+  }
 
   .blog__slider-content {
     margin-top: 20px;
@@ -752,6 +791,8 @@
     max-width: 211px;
     max-height: 48px;
     font-size: 16px;
+    margin-right: 13px;
+    /* margin-top: 2px; */
   }
 
   .line{
@@ -808,8 +849,8 @@
   }
 
   .our__clients-pagination{
-    position: relative;;
-    margin-top: 23px;
+    /* position: relative; */
+    /* margin-bottom: 25px; */
   }
 
 }
@@ -835,8 +876,12 @@
       
 @media(max-width: 390px){   
   .our__clients-slider{
-    margin-top: 86px;
+    margin-top: 46px;
+    margin-bottom: 5px;
   }  
+  .our-clients__title{
+    margin-bottom: 49px;
+  }
 }
 
 
@@ -908,20 +953,31 @@
 
   .cases-card{
     height: 285px;
-  }      
-
+  }    
+  
   .cases-title{
-    padding-top: 24px;
+    padding-top: 23px;
   }
 
   .cases-content{
     margin-top: 32px;
   }
- 
-  .cases-pagination{
-    margin-bottom: 20px;
+
+  .slider__card-logo{
+    padding: 43px 0px 0px 20px;
+    max-width: 117px;
   }
-  
+  .slider__card-text{
+    padding: 95px 20px 0px 20px;
+  }
+  .cases-link {
+    padding: 237px 0px 0px 20px;
+  }
+
+  .cases-pagination{
+    margin-bottom: 23px;
+  }
+
 }
 
 
@@ -991,6 +1047,32 @@
   .cooperation__cards{
     margin-top: 30px;
   } 
+  
+  .cooperation-title{
+    position: relative;
+    max-width: 870px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #005C9D;
+    padding: 15px 0px 20px 0px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+.cooperation-title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 280px;
+    bottom: 0;
+    height: 5px;
+    background-color: #74D6F8;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
 
 }
       
@@ -1022,6 +1104,7 @@
     height: 83px;
   }
 
+
 }
       
 @media(max-width: 390px){  
@@ -1030,12 +1113,31 @@
     height: 563px;
   }
 
-  .cooperation__title{
-    padding: 15px 0px 20px 0px;
-  }
   .card-size{
     height: 273px;
   }
+  .card-item{
+    min-width: 326px; 
+   }
+  
+  .cooperation__slider-content {
+    padding: 0px 0px;
+  }
+  .card-item__title {
+    font-size: 20px;
+    padding: 22px 0px 16px 0px;
+}
+  .card-item__list {
+    padding: 15px 5px 0px 19px;
+    max-width: 275px;
+  }
+  .card-item__list > ul > li {
+    padding-bottom: 18px;
+  }
+
+  .cooperation-title::after {
+    width: 190px;
+  } 
 }
 
 
@@ -1134,6 +1236,7 @@
 
   .footer-list-mobile{
     display: initial;
+    padding-left: 10px;
   }
 
   .contact__columns{
@@ -1213,8 +1316,14 @@
     border-bottom: 1px solid #005C9D;
   }
 
+  .logo-footer{
+    max-width: 103px;
+    max-height: 38px;
+    margin: 13px 0px 8px 6px;
+  }
+
   .column__mobile-item{
-    padding: 0px 0px 10px 8px;
+    padding: 0px 0px 5px 10px;
   }
 
   .column__mobile-title{
@@ -1226,16 +1335,26 @@
     justify-content: flex-start;
     padding-top: 14px;
   }
-  .logo-footer{
-    max-width: 103px;
-    max-height: 38px;
-    margin-bottom: 5px;
-  }
+
   .cloumn__contact-social{
-    padding-left: 5px;
+    padding-top: 22px;
+    padding-left: 8px;
   }
+
+  .cloumn__contact-location {
+    margin-top: 22px;
+  }
+
   .location{
     max-width: 230px;
+    margin-left: 10px;
+  }
+  .mail, .chat {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .cloumn__contact-chat {
+    margin-bottom: 20px;
   }
 
   .popup-list.open-list{
@@ -1291,8 +1410,15 @@
       
 @media(max-width: 390px){  
   .footer__reserved{
-    padding: 22px 0px 0px 10px;
+    padding: 23px 0px 0px 5px;
     font-size: 14px;
+  }
+  .group1{
+    padding-left: 7px;
+    margin-top: 25px;
+  }
+  .group2{
+    padding-left: 7px;
   }
 
   .footer__link-group > ul > li {
