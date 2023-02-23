@@ -6,6 +6,9 @@
 
 .header{
     padding-top: 32px;
+    max-width: 1920px;
+    margin: 0 auto;
+
 }
 
 .nav{
@@ -130,8 +133,9 @@
 .language-list{
     display: none;
 }
-.language{
+.language-popup{
     position: relative;
+    cursor: pointer;
 }
 
   .popup-language.open-lang{
@@ -146,8 +150,9 @@
     border-radius: 5px;
     z-index: 100;
     display: flex;
-    transition: 1.5s;
+    transition:  0.5s all;
   }
+
 
   .popup-language .language-list {
     width: 100%;
@@ -157,7 +162,10 @@
     align-items: center;
     overflow: auto;
     margin: 0;
+    transition:  0.5s all;
+    padding: 17px 0px 10px 0px;
   }
+
 
   .language-item {
     width: 134px;
@@ -263,9 +271,10 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 .arrow-down--active{
-    transform: rotate(180deg)
+    transform: rotate(180deg);
 }
 /* Section results */
 
@@ -848,7 +857,8 @@
     display: none;
 }
 .active-img{
-    transform: rotate(90deg)
+    transform: rotate(90deg);
+    transition: 0.5s;
 }
 
 
