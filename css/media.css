@@ -264,8 +264,11 @@
   }
 
   .title-banner{
-    font-size: 32px;
+    font-size: 36px;
   }
+  .subtitle{
+    font-size: 22px;
+}
 
   .text-banner{
     margin-top: 60px;
@@ -396,9 +399,9 @@
     padding: 350px 0px 0px 0px;
     left:30%
   }
-  .slider__content{
+  /* .slider__content{
     margin-top: 39px;
-  }
+  } */
 }
       
 @media(max-width: 390px){   
@@ -812,7 +815,8 @@
 @media (max-width: 768px){
 }
       
-@media(max-width: 576px){      
+@media(max-width: 470px){   
+  
 }
       
 @media(max-width: 390px){ 
@@ -886,10 +890,17 @@
 
 /* Section our-cases */
 
-@media (max-width: 1055px){
+@media (max-width: 1095px){
 
   .slider__card-text{
     padding: 92px 20px 0px 20px;
+  }
+
+}
+@media (max-width: 990px){
+
+  .slider__card-text{
+    padding: 92px 15px 0px 15px;
   }
 
 }
@@ -918,7 +929,8 @@
   } 
 
   .cases-content{
-    margin-top: 37px;
+    /* margin-top: 37px; */
+    height: 350px;
   }
      
   .cases-card{
@@ -957,7 +969,7 @@
   }
 
   .cases-content{
-    margin-top: 32px;
+    /* margin-top: 32px; */
   }
 
   .slider__card-logo{
@@ -983,7 +995,7 @@
 @media (max-width: 1100px){
 
   .card-item__list{
-    padding: 23px 5px 0px 25px;
+    padding: 23px 5px 0px 30px;
   }
 
 }
@@ -1100,7 +1112,6 @@
     margin-top: 20px;
     height: 83px;
   }
-
 
 }
       
