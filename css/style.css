@@ -130,6 +130,7 @@
 .language-popup{
     position: relative;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
   .popup-language.open-lang{
@@ -144,7 +145,7 @@
     border-radius: 5px;
     z-index: 100;
     display: flex;
-    transition:  0.5s all;
+    transition: all .2s ease-in-out;
   }
 
 
@@ -156,7 +157,7 @@
     align-items: center;
     overflow: auto;
     margin: 0;
-    transition:  0.5s all;
+    transition: all .2s ease-in-out;
     padding: 17px 0px 10px 0px;
   }
 
@@ -197,6 +198,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     overflow: hidden;
+    transition: max-height .2s ease;
 }
 .results__column {
     max-width: 360px;
@@ -265,10 +267,11 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    transition: 0.5s;
+    transition: all .2s ease-in-out;
 }
 .arrow-down--active{
     transform: rotate(180deg);
+    transition: all .2s ease-in-out;
 }
 /* Section results */
 
@@ -707,27 +710,33 @@
 
 
 .card-item__background1{
+    transition: all .2s ease-in-out;
     border-radius: 5px;
     height: 305px;
     background: linear-gradient(0deg, rgba(68, 164, 220, 0.87), rgba(68, 164, 220, 0.87)), url('../images/cooperation/bg-card1.png');
 }
 .card-item:hover .card-item__background1{
+    transition: all .2s ease-in-out;
     background: linear-gradient(0deg, rgba(42, 95, 125, 0.87), rgba(42, 95, 125, 0.87)), url('../images/cooperation/bg-card1.png');
 }
 .card-item__background2{
+    transition: all .2s ease-in-out;
     border-radius: 5px;
     height: 305px;
     background: linear-gradient(0deg, rgba(34, 175, 223, 0.74), rgba(34, 175, 223, 0.74)), url('../images/cooperation/bg-card2.png');
 }
 .card-item:hover .card-item__background2{
+    transition: all .2s ease-in-out;
     background: linear-gradient(0deg, rgba(21, 86, 108, 0.74), rgba(21, 86, 108, 0.74)), url('../images/cooperation/bg-card2.png');
 }
 .card-item__background3{
+    transition: all .2s ease-in-out;
     border-radius: 5px;
     height: 305px;
     background: linear-gradient(0deg, rgba(0, 92, 157, 0.63), rgba(0, 92, 157, 0.63)), url('../images/cooperation/bg-card3.png');
 }
 .card-item:hover .card-item__background3{
+    transition: all .2s ease-in-out;
     background: linear-gradient(0deg, rgba(0, 34, 57, 0.63), rgba(0, 34, 57, 0.63)), url('../images/cooperation/bg-card3.png');
 }
 
@@ -750,6 +759,7 @@
     color: #FFFFFF;
     cursor: pointer;
     padding: 0px 22px;
+    transition: all .2s ease-in-out;
 }
 .card-item:hover .card-item__button{
     box-shadow: -6px -6px 13px rgba(0, 0, 0, 0.25), 9px 16px 36px rgba(0, 0, 0, 0.25);
@@ -853,7 +863,7 @@
 .column__menu > ul > li{
     padding-bottom: 20px;
 }
-.column__menu > ul > li:hover{
+.column__menu > ul > li > a:hover{
     color: #005C9D;
 }
 
@@ -878,11 +888,17 @@
 .contact__footer-small{
     display: none;
 }
+.column__mobile-img > img {
+    transition: all .2s ease-in-out;
+}
 .active-img{
     transform: rotate(90deg);
-    transition: 0.5s;
+    transition: all .2s ease-in-out;
 }
-
+.cloumn__contact-social > a:hover svg path{
+    transition: all .2s ease-in-out;
+    fill: #078EEE;
+}
 
 
 /* Section contact-footer */
