@@ -187,6 +187,23 @@
     font-size: 18px;
     width: 250px;
   }
+  .text-cut-small{
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .text-cut-big{
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
 
   .slider__card-link{
     position: absolute;
@@ -235,6 +252,7 @@
     left: 0;
 }
 
+
   .right-button-info{
     right: 0;
 }
@@ -257,14 +275,15 @@
 }
 
 .slider__card-text{
-  /* display: inline-block; */
-  position: absolute;
-  padding: 92px 50px 0px 25px;
+  display: block;
+  display: -webkit-box;
+  padding: 7px 50px 0px 25px;
   max-width: 285px;
-  /* height: 180px; */
+  max-height: 200px;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   text-overflow: ellipsis;
-  /* white-space: nowrap; */
-  /* overflow: hidden; */
 }
 
 .slider__card:hover .slider__card-text{

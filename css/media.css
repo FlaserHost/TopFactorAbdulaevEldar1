@@ -922,14 +922,14 @@
 @media (max-width: 1095px){
 
   .slider__card-text{
-    padding: 92px 20px 0px 20px;
+    padding: 7px 20px 0px 20px;
   }
 
 }
 @media (max-width: 990px){
 
   .slider__card-text{
-    padding: 92px 15px 0px 15px;
+    padding: 7px 15px 0px 15px;
   }
 
 }
@@ -942,8 +942,8 @@
 
   .slider__card-text{
     max-width: 350px;
-    padding: 100px 20px 0px 27px;
-    margin: 0 auto;
+    padding: 10px 20px 0px 27px;
+    /* margin: 0 auto; */
   }
 }    
       
@@ -1006,7 +1006,7 @@
     max-width: 117px;
   }
   .slider__card-text{
-    padding: 95px 20px 0px 20px;
+    padding: 8px 20px 0px 20px;
   }
   .cases-link {
     padding: 237px 0px 0px 20px;
