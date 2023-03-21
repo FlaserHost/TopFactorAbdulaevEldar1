@@ -125,9 +125,7 @@
     width: 360px;
     height: 402px;
     background: #FFFFFF;
-    /* box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.08); */
     box-shadow: 0px 3px 5px 1px rgb(0 0 0 / 10%);
-    /* transition: all .2s ease-in-out; */
     border-radius: 10px;
     z-index: 50;
   }
@@ -315,9 +313,15 @@
 .cases-title{
   padding-top: 35px; 
 }
+
 .cases-content{
-  /* margin-top: 48px; */
+  /* position: absolute; */
+  max-width: 1170px;
   height: 450px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  overflow: hidden;
+  /* margin-top: 45px; */
 }
 
 .cases-card{
@@ -328,15 +332,24 @@
 .rosatom{
   margin-left: 5px;
 }
-.cases-pagination{
+.cases_pagination{
   margin-bottom: 47px;
 }
-.swiper-pagination-bullet {
+.swiper-pagination-bullet{
   border-radius: 50%;
   width: 10px;
 	height: 10px;
 }
 .swiper-pagination-bullet-active{
+  background: #005C9D;
+}
+
+.cases_pagination-bullet{
+  border-radius: 50%;
+  width: 10px;
+	height: 10px;
+}
+.cases_pagination-bullet-active{
   background: #005C9D;
 }
 /* Section our cases */

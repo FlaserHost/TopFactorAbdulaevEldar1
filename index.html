@@ -621,7 +621,7 @@
         <div class="title-style cases-title">our cases</div>
     </div>
     <div class="buttons-swiper">
-    <div class="slider__content cases-content">
+    <div class="cases-content">
         <div class="slider__cards swiper-wrapper">
             <div class="slider__card cases-card swiper-slide">
                 <div class="slider__card-logo">
@@ -674,7 +674,7 @@
             <img src="images/left.svg" alt="left">
         </div>
     </div>
-    <div class="swiper-pagination cases-pagination"></div>
+    <div class="swiper-pagination cases_pagination"></div>
 </section>
 
 <section class="cooperation">
@@ -1194,13 +1194,13 @@
 <script>
     const casesSwiper = new Swiper(".cases-content", {
     slidesPerView: 3,
-    spaceBetween: 34,
+    spaceBetween: 30,
     loop: true,
     centerSlide: 'true',
     fade: 'true',
     // grabCursor: 'true',
     pagination: {
-        el: ".cases-pagination",
+        el: ".cases_pagination",
         clickable: true,
       },
     navigation: {

@@ -25,12 +25,12 @@ function renderPopup() {
 }
 
 // Код для закрытия меню при нажатии на ссылку
-const links = Array.from(menu.children);
+// const links = Array.from(menu.children);
 
 // Для каждого элемента меню при клике вызываем ф-ию
-links.forEach((link) => {
-  link.addEventListener('click', closeOnClick);
-});
+// links.forEach((link) => {
+//   link.addEventListener('click', closeOnClick);
+// });
 
 // Закрытие попапа при клике на меню
 function closeOnClick() {
