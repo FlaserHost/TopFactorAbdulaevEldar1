@@ -874,7 +874,7 @@
   .webinars__content {
     margin: 20px 0px 31px 0px;
     max-width: 328px;
-    height: 388px;
+    /* height: 388px; */
     padding: 31px 31px 38px 23px;
   }
   .webinars__content-text{
