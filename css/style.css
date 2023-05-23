@@ -8,7 +8,6 @@
     padding-top: 32px;
     max-width: 1920px;
     margin: 0 auto;
-
 }
 
 .nav{
@@ -86,7 +85,8 @@
 .container__contact{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 15px;
+    padding: 0 15px;
+    cursor: pointer;
 }
 .contact__content{
     box-sizing: border-box;
@@ -105,7 +105,7 @@
     font-size: 20px;
     line-height: 24px;
     margin-right: 10px;
-    padding: 20px 0px 20px 3px;
+    padding: 20px 0 20px 3px;
 }
 .button-contact{
     text-transform: uppercase;
@@ -141,7 +141,7 @@
     width: 183px;
     height: 252px;
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 19px rgba(0, 0, 0, .08);
     border-radius: 5px;
     z-index: 101;
     display: flex;
@@ -158,7 +158,7 @@
     overflow: auto;
     margin: 0;
     transition: all .2s ease-in-out;
-    padding: 17px 0px 10px 0px;
+    padding: 17px 0 10px 0px;
   }
 
 
@@ -189,7 +189,7 @@
     margin: 0 auto;
 }
 .results {
-    margin: 72px 0px 22px 0px; 
+    margin: 72px 0 22px 0px; 
 }
 
 .results__row {
