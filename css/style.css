@@ -563,8 +563,8 @@
 }
 
 .our-results__background{
-    width: 50%;
-    height: 510px;
+    width: 80%;
+    height: 660px;
     margin: 40px auto 0;
     background: url("../images/our-results.jpg") 50%/cover no-repeat ;
     background-size: contain;
