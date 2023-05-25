@@ -42,6 +42,18 @@
     display: none;
 }
 
+.language-popup {
+    display: flex;
+    align-items: center;
+}
+
+.selected-lang {
+    color: #005C9D;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-bottom: 2px;
+}
+
 .search-input{
     width: 281px;
     height: 40px;
@@ -706,39 +718,36 @@
     color: #74D6F8;
 }
 
-.card-item__background1{
+.card-item__background1,
+.card-item__background2,
+.card-item__background3 {
     transition: all .2s ease-in-out;
     border-radius: 5px;
     height: 305px;
-    background: linear-gradient(0deg, rgba(68, 164, 220, 0.87), rgba(68, 164, 220, 0.87)), url('../images/cooperation/bg-card1.png');
+    cursor: pointer;
+}
+
+.card-item__background1{
+    background: linear-gradient(0deg, rgba(68, 164, 220, .87), rgba(68, 164, 220, .87)), url('../images/cooperation/bg-card1.png');
 }
 
 .card-item:hover .card-item__background1{
-    transition: all .2s ease-in-out;
-    background: linear-gradient(0deg, rgba(42, 95, 125, 0.87), rgba(42, 95, 125, 0.87)), url('../images/cooperation/bg-card1.png');
+    background: linear-gradient(0deg, rgba(42, 95, 125, .87), rgba(42, 95, 125, .87)), url('../images/cooperation/bg-card1.png');
 }
 
 .card-item__background2{
-    transition: all .2s ease-in-out;
-    border-radius: 5px;
-    height: 305px;
     background: linear-gradient(0deg, rgba(34, 175, 223, .74), rgba(34, 175, 223, .74)), url('../images/cooperation/bg-card2.png');
 }
 
 .card-item:hover .card-item__background2{
-    transition: all .2s ease-in-out;
     background: linear-gradient(0deg, rgba(21, 86, 108, .74), rgba(21, 86, 108, .74)), url('../images/cooperation/bg-card2.png');
 }
 
 .card-item__background3{
-    transition: all .2s ease-in-out;
-    border-radius: 5px;
-    height: 305px;
     background: linear-gradient(0deg, rgba(0, 92, 157, .63), rgba(0, 92, 157, .63)), url('../images/cooperation/bg-card3.png');
 }
 
 .card-item:hover .card-item__background3{
-    transition: all .2s ease-in-out;
     background: linear-gradient(0deg, rgba(0, 34, 57, .63), rgba(0, 34, 57, .63)), url('../images/cooperation/bg-card3.png');
 }
 
@@ -764,6 +773,16 @@
 }
 .card-item:hover .card-item__button{
     box-shadow: -6px -6px 13px rgba(0, 0, 0, .25), 9px 16px 36px rgba(0, 0, 0, .25);
+}
+
+.slider__card-logo-img {
+    padding: 10px 18px 0;
+}
+
+.slider__card-logo-img-size {
+    width: 150px;
+    height: 55px;
+    object-fit: contain;
 }
 
 /* Section contact-footer */

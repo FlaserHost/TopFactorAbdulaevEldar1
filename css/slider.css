@@ -134,61 +134,63 @@
     margin: 0 auto;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
-    color: #005C9D; 
+    color: #005C9D;
+    height: 88px;
+    box-sizing: border-box;
   }
 
   .info-slider__card-list{
     display: flex;
     flex-direction: column;
-    padding-top: 29px;
-    padding-right: 10px;
-    min-height: 270px;
+    padding: 29px 10px 20px 0;
+    min-height: 150px;
+    box-sizing: border-box;
   }
 
   .card-list-item{
     display: flex;
-    padding: 0 0 15px 30px;
+    padding: 0 0 7px 30px;
   }
 
   .item-img{
-    padding-top: 8px;
-    width: 21px;
-    height: 21px;
+    width: 15px;
+    height: 23px;
     margin-right: 20px;
+    object-fit: contain;
   }
 
   .item-text{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     width: 250px;
+    display: flex;
+    align-items: center;
   }
 
   .text-cut-small{
-    display: block;
-    display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
-  /*.text-cut-big{
+  .text-cut-big{
     display: block;
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-  }*/
+  }
 
-.text-cut-big {
+/*.text-cut-big {
     display: block;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     word-wrap: break-word;
-}
+}*/
 
   .slider__card-link {
     display: flex;
@@ -201,7 +203,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     color: #005C9D;
   }
 
@@ -211,17 +213,12 @@
     cursor: pointer;
     transition: all .2s ease-in-out;
   }
-  
-  .talent-title{
-    margin-top: 9px;
-    margin-bottom: 20px;
-  }
 
   .buttons-swiper{
     max-width: 1220px;
     position: relative;
     padding: 0 10px;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
   }
 
   .left-button-info, .right-button-info{
@@ -245,14 +242,10 @@
 
 .our-cases{
   max-width: 1920px;
-  height: 615px;
+  height: 532px;
   padding: 0 15px;
   margin: 0 auto;
   background: rgba(112, 196, 255, .06);
-}
-
-.slider__card-logo{
-  padding: 38px 0 0 25px;
 }
 
 .slider__card-text{
@@ -265,6 +258,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 17px;
 }
 
 .slider__card:hover .slider__card-text{
@@ -273,17 +267,17 @@
 }
 
 .cases-link{
-  position: absolute;
   display: flex;
   align-items: center;
-  padding: 291px 0 0 25px;
+  padding: 25px 0 0 25px;
+  margin-top: auto;
 }
 
 .cases-link > a{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   color: #005C9D;
 }
 .cases-link > svg{
@@ -307,7 +301,7 @@
 
 .cases-card{
   border-radius: 0;
-  height: 350px;
+  height: 289px;
   z-index: 1000;
 }
 
