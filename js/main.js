@@ -40,7 +40,7 @@ function closeOnClick() {
 }
 
 // _______Выбор языка_______
-const menuLanguage = document.querySelector('#language');
+const menuLanguage = document.querySelector('.language-popup');
 const popupLanguage = document.querySelector('#popup-language');
 
 const menuLanguageList = document.querySelector('#language-list').cloneNode(1);
