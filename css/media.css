@@ -1,4 +1,22 @@
 /* Header */
+@media (max-width: 1025px) {
+  .header .menu-list {
+    font-size: 18px;
+  }
+
+  .buttons-swiper:not(.info-slider > .buttons-swiper) {
+    margin: 28px auto 0;
+  }
+
+  .our-cases {
+    min-height: 453px;
+  }
+
+  .our-results__background {
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 960px) {
   .logo{
     min-width: 148px;
@@ -19,10 +37,6 @@
   .search-img{
     max-width: 25px;
     max-height: 25px;
-  }
-
-  .call{
-    display: none;
   }
 
   .search-input{
@@ -196,6 +210,10 @@
     font-weight: 700;
     font-size: 16px;
   }
+
+  .blog-webinars {
+    margin: 30px auto 0;
+  }
 }
 
 @media(max-width: 576px){
@@ -243,7 +261,7 @@
 @media (max-width: 960px){
   .slider,
   .wrapper {
-    max-height: 510px;
+    max-height: 521px;
   }
 
   .title-banner{
@@ -390,7 +408,6 @@
   }
 
   .slider__card-link{
-    padding-top: 350px;
     left: 30%
   }
 }
@@ -402,7 +419,6 @@
 
 @media(max-width: 390px){
   .slider__card-link{
-    padding-top: 350px;
     left: 15%
   }
 }
@@ -413,7 +429,6 @@
   }
 
   .slider__card-link{
-    padding-top: 350px;
     left: 25%
   }
 
@@ -437,14 +452,14 @@
   }
 
   .results {
-    margin: 25px 0;
+    margin: 40px 0;
   }
 
   .results__title{
     max-width: 800px;
     font-size: 28px;
     padding: 0 0 22px;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
   }
 
   .results__button{
@@ -547,25 +562,26 @@
 
 @media (max-width: 768px){
   .section-invitation{
-    height: 570px;
+    height: 377px;
   }
 
   .invitation__title {
-    padding: 55px 0 25px;
+    padding: 25px 0;
   }
 
   .invitation__subtitle {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     padding: 0 5px 35px 5px;
   }
 
   .invitation__list-item > p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
-  .invitation__list-item {
-    padding-bottom: 25px;
+  .invitation__list-item > img {
+    width: 20px;
+    height: 20px;
   }
 
   .invitation__list {
@@ -772,7 +788,7 @@
 
   .webinars__content {
     margin: 23px 0 31px 0;
-    padding: 66px 32px;
+    padding: 25px 32px;
   }
 
   .webinars__button {
@@ -782,12 +798,7 @@
   }
 
   .line{
-    margin-top: 50px;
-    margin-bottom: 40px;
-  }
-
-  .line2{
-    margin: 50px 0;
+    margin: 25px 0;
   }
 }
 
@@ -871,21 +882,9 @@
 
 /* Section our-results */
 
-@media (max-width: 1340px){
-  .results-content{
-    height: 900px;
-  }
-}
-
-@media (max-width: 1200px){
-  .results-content{
-    height: 800px;
-  }
-}
-
 @media (max-width: 1070px){
   .results-content{
-    height: 750px;
+    height: 660px;
   }
 }
 
@@ -897,12 +896,13 @@
 
 @media (max-width: 768px){
   .results-content{
-    height: 1280px;
+    height: 813px;
   }
 
   .our-results__background{
-    background: url("../images/our-results-midle.jpg") 50% / cover no-repeat;
-    background-size: contain;
+    width: 80%;
+    margin-top: 40px;
+    background: url("../images/our-results-midle.jpg") center / 90% 100% no-repeat;
   }
 }
 
@@ -938,6 +938,7 @@
   }
   .our__clients-slider{
     display: block;
+    height: 375px;
   }
 
   .logo-row-top{
@@ -1076,26 +1077,23 @@
 
 @media (max-width: 1100px){
   .card-item__list{
-    padding: 23px 5px 0 30px;
+    padding: 23px 5px 0 42px;
   }
 }
 
 @media (max-width: 1038px){
-  .card-item__list > ul > li {
-    padding-bottom: 16px;
-  }
   .card-item__title{
-    padding: 25px 0px 16px 0px;
+    padding-top: 25px;
   }
   .card-item__button{
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 960px){
   .card-item__title{
     font-size: 20px;
-    padding: 25px 0px 16px 0px;
+    padding: 25px 0 16px 0;
   }
 
   .card-item__list {
@@ -1111,10 +1109,11 @@
   .cooperation__slider{
     display: block;
     max-width: 1920px;
-    height: 656px;
-    margin: 0 auto;
+    height: 548px;
+    margin: 30px auto 0;
     border-bottom: 3px solid #005C9D;
   }
+
   .cooperation__slider-content{
     max-width: 1170px;
     margin: 0 auto;
@@ -1130,6 +1129,19 @@
 
   .cooperation__cards{
     margin-top: 30px;
+  }
+
+  .cooperation__cards .swiper-slide {
+    height: auto;
+  }
+
+  .card-item__title {
+    font-size: 18px;
+    height: 96px;
+  }
+
+  .card-item__list {
+    font-size: 15px;
   }
 
   .cooperation-title{
@@ -1315,6 +1327,14 @@
   .location{
     font-size: 14px;
     max-width: 200px;
+  }
+
+  .card-item__button {
+    font-size: 15px;
+  }
+
+  .our-cases {
+    min-height: 433px;
   }
 }
 

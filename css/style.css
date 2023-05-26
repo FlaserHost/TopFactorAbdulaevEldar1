@@ -5,7 +5,6 @@
 }
 
 .header{
-    padding-top: 32px;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -70,18 +69,23 @@
     color:  #000;
 }
 
-.call{
-    font-size: 18px;
+.call {
+    font-size: 16px;
     font-weight: bold;
     color: #005C9D;
-    margin-right: auto;
-    margin-left: 140px;
     text-decoration: underline;
-    padding: 5px;
+    padding: 10px 33px;
+    display: inline-block;
 }
 
 .call:hover{
     color: #078EEE;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    padding: 10px 33px;
 }
 
 .contact-us{
@@ -142,6 +146,7 @@
     position: relative;
     cursor: pointer;
     transition: all .2s ease-in-out;
+    padding-top: 4px;
 }
 
 .popup-language.open-lang{
@@ -294,7 +299,7 @@
 
 .section-invitation{
     max-width: 1920px;
-    height: 677px;
+    height: 412px;
     margin: 0 auto;
     background: url("../images/invitation.jpg") 50% / cover no-repeat;
     background-blend-mode: luminosity;
@@ -304,41 +309,51 @@
 .invitation__title {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 30px;
     color: #74D6F8;
     align-items: center;
     text-align: center;
-    padding: 114px 0 41px;
+    padding: 32px 0;
 }
 
 .invitation__subtitle {
     max-width: 1025px;
-    align-items: center;
     text-align: center;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 26px;
     color: #fff;
-    padding: 0 5px 45px 20px;
+    padding: 0 5px 31px 20px;
     margin: 0 auto;
 }
 .invitation__list {
     display: flex;
     flex-direction: column;
-    padding: 0 0 20px 50px;
+    padding: 0 0 35px 50px;
 }
 
 .invitation__list-item {
     display: flex;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .invitation__list-item > p {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     padding-left: 22px;
     margin: 0;
+}
+
+.invitation__list-item > img {
+    width: 24px;
+    height: 24px;
+}
+
+.invitation__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .invitation__link {
@@ -351,14 +366,16 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 22px;
     line-height: 36px;
     color: #74D6F8;
-    padding-right: 25px;
+    padding-right: 11px;
 }
 
 .invitation__link > svg {
     align-items: center;
+    width: 34px;
+    height: 22px;
     padding-top: 3px;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -511,7 +528,8 @@
 }
 
 .line{
-    max-width: 439px;
+    /*max-width: 439px;*/
+    max-width: 490px;
     border: 1px solid #74D6F8;
     margin: 40px 0;
 }
@@ -638,7 +656,7 @@
 
 .cooperation{
     max-width: 1920px;
-    height: 658px;
+    height: 584px;
     margin: 0 auto;
     border-bottom: 3px solid #005C9D;
 }
@@ -659,26 +677,30 @@
     display: flex;
     justify-content: space-between;
     margin-top: 52px;
+    min-height: 373px;
 }
 
 .card-item{
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    width: 380px;
+    width: 100%;
     padding: 0 10px;
 }
 
 .card-item__title{
-    margin: 0  auto;
+    margin: 0 auto;
     position: relative;
     text-align: center;
+    height: 106px;
     max-width: 276px;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     padding: 33px 0 25px;
+    text-transform: uppercase;
 }
+
 .card-item__title::after{
     content: '';
     position: absolute;
@@ -734,8 +756,10 @@
 .card-item__background3 {
     transition: all .2s ease-in-out;
     border-radius: 5px;
-    height: 285px;
+    height: calc(100% - 88px);
     cursor: pointer;
+    padding-bottom: 33px;
+    box-sizing: border-box;
 }
 
 .card-item__background1{
@@ -774,7 +798,7 @@
     background:  #005C9D;
     box-shadow: 0 9px 10px rgba(0, 0, 0, .25);
     border-radius: 5px;
-    margin-top: 18px;
+    margin-top: auto;
     height: 70px;
     border: none;
     font-family: 'Inter', sans-serif;
@@ -808,7 +832,6 @@
 
 .contact-footer{
     max-width: 1920px;
-    height: 333px;
     margin: 0 auto;
     border-bottom: 1px solid #005C9D;
 }
@@ -877,7 +900,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 15px;
+    padding: 15px 0;
     max-width: 235px;
 }
 
@@ -946,7 +969,7 @@
 
 .footer{
     max-width: 1920px;
-    height: 285px;
+    height: 104px;
     margin: 0 auto;
 }
 
