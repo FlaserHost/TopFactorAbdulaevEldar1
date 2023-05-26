@@ -85,7 +85,7 @@
 
   .popup {
     position: fixed;
-    top: 140px;
+    top: 61px;
     left: -100%;
     width: 100%;
     height: 100%;
@@ -400,7 +400,7 @@
 @media (max-width: 657px){
   .info-slider__card-list{
     align-items: center;
-    padding-top: 29px;
+    padding: 29px 25px 20px 0;
   }
 
   .item-text{
@@ -476,6 +476,7 @@
 @media (max-width: 750px){
   .results__row {
     max-height: 348px;
+    margin-top: 40px;
   }
 
   .results__row--active{
@@ -539,7 +540,7 @@
   }
 
   .results__row {
-    max-height: 360px;
+    max-height: 359px;
   }
 
   .results__row--active{
@@ -549,7 +550,7 @@
 }
 @media(max-width: 345px){
   .results__row {
-    max-height: 400px;
+    max-height: 452px;
   }
 
   .results__row--active{
@@ -597,18 +598,12 @@
   .invitation__list {
     padding: 0 0 15px 30px;
   }
-
-  .invitation__list-item > img {
-    width: 25px;
-    height: 25px;
-  }
 }
 
 @media(max-width: 455px){
-
   .invitation__title {
     font-size: 24px;
-    padding: 47px 0 17px;
+    padding: 22px 0 17px;
   }
 
   .invitation__subtitle {
@@ -617,7 +612,7 @@
   }
 
   .invitation__list-item {
-    padding-bottom: 20px;
+    padding-bottom: 14px;
   }
 
   .invitation__list-item > p {
@@ -625,7 +620,7 @@
   }
 
   .section-invitation{
-    height: 470px;
+    height: 392px;
   }
 
   .invitation__link > a {
@@ -639,6 +634,16 @@
 
   .invitation__list {
     padding-left: 15px;
+  }
+}
+
+@media (max-width: 426px) {
+  .slider__card-link {
+    padding-left: 53px;
+  }
+
+  .webinars__content-text {
+    font-size: 18px;
   }
 }
 
@@ -810,16 +815,11 @@
 
   .webinars__content {
     margin: 23px 0 31px 0;
-    padding: 45px 32px;
+    padding: 26px 32px;
   }
 
-  .line{
-    margin-top: 30px;
-    margin-bottom: 25px;
-  }
-
-  .line2{
-    margin: 30px 0;
+  .line, .line2 {
+    margin: 22px;
   }
 }
 
@@ -847,7 +847,7 @@
   .webinars__content {
     margin: 20px 0 31px 0;
     max-width: 328px;
-    padding: 31px 31px 38px 23px;
+    padding: 20px 23px;
   }
   .webinars__content-text{
     font-size: 16px;
@@ -1008,22 +1008,6 @@
     padding-top: 37px;
     font-size: 24px;
   }
-
-  .our-cases{
-    height: 515px;
-  }
-
-  .cases-content{
-    height: 350px;
-  }
-
-  .cases-card{
-    height: 300px;
-  }
-
-  .cases-link{
-    padding: 240px 0 0 27px;
-  }
 }
 @media (max-width: 450px){
   .cases-card{
@@ -1031,20 +1015,12 @@
   }
 
   .slider__card-text{
-    max-width: 237px;
+    max-width: initial;
     font-size: 16px;
   }
 }
 
 @media(max-width: 390px){
-  .our-cases{
-    height: 464px;
-  }
-
-  .cases-card{
-    height: 285px;
-  }
-
   .cases-title{
     padding-top: 23px;
   }
@@ -1056,10 +1032,6 @@
 
   .slider__card-text{
     padding: 8px 20px 0 20px;
-  }
-
-  .cases-link {
-    padding: 237px 0 0 20px;
   }
 
   .cases_pagination{
@@ -1218,10 +1190,6 @@
   .card-item__list {
     padding: 15px 5px 0 19px;
     max-width: 275px;
-  }
-
-  .card-item__list > ul > li {
-    padding-bottom: 18px;
   }
 
   .cooperation-title::after {
@@ -1451,11 +1419,6 @@
     font-size: 14px;
     margin-left: 10px;
   }
-
-  .cloumn__contact-chat {
-    margin-bottom: 20px;
-  }
-
 }
 
 /* Section footer */
@@ -1515,5 +1478,213 @@
 
   .footer__link-group > ul > li {
     padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 426px) {
+  .results-content {
+    height: 742px;
+  }
+
+  .our-results__background {
+    width: 100%;
+    margin-top: 20px;
+    background-size: 90% 95%;
+  }
+
+  .our__clients-slider {
+    height: 333px;
+  }
+
+  .swiper-backface-hidden .swiper-slide.go-down {
+    transform: translateY(29px);
+  }
+
+  .cooperation__title.cooperation-title + .buttons-swiper {
+    margin: 0 auto;
+  }
+
+  .card-item__list {
+    font-size: 16px;
+  }
+
+  .card-item__list {
+    padding-left: 13px;
+  }
+
+  .contact__footer-small .call {
+    font-size: 14px;
+    padding: 10px 40px;
+  }
+
+  .contact__footer-small .call,
+  .search-area {
+    padding: 10px 40px;
+  }
+
+  .cloumn__contact-location {
+    margin-top: 10px;
+  }
+
+  .webinars__title {
+    margin-left: 0;
+  }
+
+  .webinars__button {
+    margin-bottom: 0;
+  }
+
+  .our-results {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 376px) {
+  .header {
+    padding-top: 0;
+  }
+
+  .nav2 {
+    border-top: none;
+  }
+
+  .selected-lang {
+    padding-bottom: 0;
+    margin-top: 5px;
+  }
+
+  .results {
+    margin-top: 35px;
+  }
+
+  .results__column {
+    padding-left: 20px;
+  }
+
+  .line {
+    margin: 20px 0;
+  }
+
+  .our-results__background {
+    height: 544px;
+  }
+
+  .results-content {
+    height: 585px;
+  }
+
+  .our-clients__title {
+    margin-bottom: 0;
+  }
+
+  .our__clients-slider {
+    height: 299px;
+  }
+
+  .cases_pagination {
+    margin-bottom: 7px;
+  }
+
+  .our-cases {
+    min-height: 409px;
+  }
+
+  .card-item__list {
+    padding-left: 25px;
+  }
+
+  .card-item__button {
+    height: 62px;
+  }
+
+  .cooperation__slider {
+    height: 514px;
+  }
+
+  .popup {
+    top: 83px;
+  }
+}
+
+@media (max-width: 321px) {
+  .info-slider__card-title {
+    padding-top: 0;
+    font-size: 15px;
+    height: 64px;
+  }
+
+  .info-slider__card-list {
+    padding: 0 25px 20px 0;
+  }
+
+  .item-text {
+    font-size: 13px;
+    padding-bottom: 3px;
+  }
+
+  .slider__card-link > a {
+    font-size: 14px;
+  }
+
+  .results__column {
+    padding-left: 7px;
+  }
+
+  .item-results__title {
+    margin-bottom: 10px;
+    flex-grow: 1;
+  }
+
+  .item-results__title {
+    font-size: 16px;
+  }
+
+  .item-results__text {
+    font-size: 14px;
+  }
+
+  .item-results__title {
+    padding-top: 4px;
+  }
+
+  .item-results__icon > img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .our-results__background {
+    height: 476px;
+  }
+
+  .results-content {
+    height: 525px;
+  }
+
+  .our-cases {
+    min-height: 442px;
+  }
+
+  .card-item__title {
+    font-size: 16px;
+  }
+
+  .card-item__list {
+    padding-left: 37px;
+  }
+
+  .card-item__list > ul > li {
+    padding-bottom: 0;
+  }
+
+  .card-item__button {
+    font-size: 13px;
+  }
+
+  .webinars {
+    margin-left: 0;
+  }
+
+  .webinars__title {
+    margin-right: 0;
   }
 }

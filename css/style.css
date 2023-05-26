@@ -219,7 +219,7 @@
 .results__column {
     max-width: 360px;
     margin-bottom: 50px;
-    transform: translateX(45px);
+    padding-left: 50px;
 }
 
 .item-results {
