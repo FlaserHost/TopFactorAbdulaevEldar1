@@ -1441,6 +1441,16 @@
   }
 }
 
+@media (max-width: 769px) {
+  .logo-img {
+    order: 1;
+  }
+
+  .language-popup {
+    order: 2;
+  }
+}
+
 @media(max-width: 720px){
   .footer__content{
     flex-direction: column;
@@ -1607,6 +1617,10 @@
 }
 
 @media (max-width: 321px) {
+  .selected-lang {
+    margin-right: 5px;
+  }
+
   .info-slider__card-title {
     padding-top: 0;
     font-size: 15px;

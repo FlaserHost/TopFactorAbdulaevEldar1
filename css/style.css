@@ -5,7 +5,6 @@
 }
 
 .header{
-    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -28,6 +27,7 @@
 }
 .menu-item{
     margin-left: 40px;
+    font-size: 18px;
 }
 
 .menu-link:hover{
@@ -89,7 +89,6 @@
 }
 
 .contact-us{
-    max-width: 1920px;
     margin: 0 auto;
     background-color: #005C9D;
 }
@@ -199,7 +198,6 @@
 /* Section results */
 
 .section-results {
-    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -232,7 +230,7 @@
     width: 80%;
     font-weight: 500;
     font-size: 19px;
-    color: #005C9D;
+    color: #000;
     margin-bottom: 10px;
 }
 
@@ -254,10 +252,10 @@
     position: relative;
     max-width: 870px;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     text-transform: uppercase;
-    color: #013C66;
+    color: #D05130;
     padding-bottom: 20px;
     margin: 0 auto 51px;
 }
@@ -298,7 +296,6 @@
 /* Section invitation */
 
 .section-invitation{
-    max-width: 1920px;
     height: 412px;
     margin: 0 auto;
     background: url("../images/invitation.jpg") 50% / cover no-repeat;
@@ -306,11 +303,16 @@
     overflow: hidden;
 }
 
+.section-invitation,
+.invitation {
+    position: relative;
+}
+
 .invitation__title {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
-    color: #74D6F8;
+    color: #fff;
     align-items: center;
     text-align: center;
     padding: 32px 0;
@@ -399,7 +401,6 @@
 /* Section blog-webinars */
 
 .blog-webinars{
-    max-width: 1920px;
     height: auto;
     margin: 0 auto;
 }
@@ -434,13 +435,17 @@
     padding-bottom: 31px;
 }
 
+.blog__content-img {
+    width: 195px;
+}
+
 .title-style{
     display: inline-block;
     position: relative;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 24px;
     text-transform: uppercase;
-    color: #005C9D;
+    color: #D05130;
     padding-bottom: 13px;
 }
 
@@ -465,10 +470,15 @@
 
 .blog__content-name{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     color: #005C9D;
     padding-top: 11px;
     cursor: pointer;
+}
+
+.blog__content-date,
+.blog__content-name {
+    padding-right: 68px;
 }
 
 .blog__content-name:hover{
@@ -489,11 +499,11 @@
     box-sizing: border-box;
     border: 1px solid #005C9D;
     border-radius: 5px;
-    margin: 23px 0 144px;
+    margin: 23px 0 63px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 66px 32px;
+    padding: 66px 32px 73px;
 }
 
 .webinars__title{
@@ -509,7 +519,7 @@
 .webinars__content-text{
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     color: #005C9D;
     max-width: 390px;
     cursor: pointer;
@@ -570,7 +580,6 @@
 /* Section our-results */
 
 .our-results{
-    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -606,7 +615,6 @@
 /* Section our-clients */
 
 .our-clients{
-    max-width: 1920px;
     height: 398px;
     margin: 40px auto 0;
 }
@@ -655,10 +663,9 @@
 }
 
 .cooperation{
-    max-width: 1920px;
     height: 584px;
     margin: 0 auto;
-    border-bottom: 3px solid #005C9D;
+    border-bottom: 1px solid #005C9D;
 }
 
 .container-cooperation{
@@ -668,7 +675,6 @@
 }
 
 .cooperation__title{
-    color: #005C9D;
     padding: 44px 0 17px;
 }
 
@@ -831,7 +837,6 @@
 /* Section contact-footer */
 
 .contact-footer{
-    max-width: 1920px;
     margin: 0 auto;
     border-bottom: 1px solid #005C9D;
 }
@@ -968,7 +973,6 @@
 /* Footer */
 
 .footer{
-    max-width: 1920px;
     height: 104px;
     margin: 0 auto;
 }
@@ -1004,4 +1008,11 @@
 
 .group2{
     padding-left: 64px;
+}
+
+.black-glass {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
 }

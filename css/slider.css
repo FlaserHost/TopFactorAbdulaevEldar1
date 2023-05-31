@@ -1,7 +1,6 @@
 /* Banner-slider */
 .slider{
     position: relative;
-    max-width: 1920px;
     height: 550px;
     padding: 0 15px;
     margin: 0 auto;
@@ -84,7 +83,6 @@
 /* Section info-slider */
 
 .info-slider {
-    max-width: 1920px;
     padding: 15px;
     margin: 31px auto 0;
     background: rgba(112, 196, 255, .06);
@@ -136,7 +134,7 @@
     font-weight: 600;
     font-size: 20px;
     text-align: center;
-    color: #005C9D;
+    color: #D05130;
     height: 88px;
     box-sizing: border-box;
   }
@@ -245,7 +243,6 @@
 /* Section our cases */
 
 .our-cases{
-  max-width: 1920px;
   min-height: 435px;
   padding: 0 15px;
   margin: 0 auto;
