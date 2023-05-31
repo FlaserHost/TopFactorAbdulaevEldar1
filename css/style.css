@@ -493,6 +493,8 @@
 .webinars{
     width: 555px;
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .webinars__content{
@@ -550,7 +552,8 @@
 
 .webinars__button{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    margin-top: auto;
 }
 
 .webinars__button-style{
@@ -566,7 +569,7 @@
     font-size: 24px;
     border: 0;
     cursor: pointer;
-    margin-right: -3px;
+    margin-right: .5px;
 }
 
 .webinars__button-style:hover{
