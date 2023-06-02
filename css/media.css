@@ -1454,7 +1454,6 @@
   .slider.swiper .banner.banner1 {
     width: 100%;
     height: 100%;
-    object-fit: initial;
   }
 
   .slider.swiper .buttons-swiper,
