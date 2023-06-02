@@ -161,7 +161,7 @@
 
   .item-text{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     width: 250px;
     display: flex;
     align-items: center;
@@ -258,7 +258,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .slider__card:hover .slider__card-text{
@@ -300,7 +300,7 @@
 
 .cases-card{
   border-radius: 0;
-  min-height: 242px;
+  min-height: 231px;
   z-index: 1000;
   box-sizing: border-box;
 }
