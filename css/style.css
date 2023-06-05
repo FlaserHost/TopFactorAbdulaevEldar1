@@ -21,6 +21,10 @@
     max-height: 79px;
 }
 
+.logo {
+    height: 70px;
+}
+
 .menu-list{
     display: flex;
     padding: 0 15px;
@@ -119,7 +123,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     margin-right: 10px;
     padding: 20px 0 20px 3px;
@@ -127,15 +131,15 @@
 
 .button-contact{
     text-transform: uppercase;
-    min-width: 206px;
-    min-height: 47px;
+    min-width: 160px;
+    min-height: 40px;
     border-radius: 3px;
     background-color: #74D6F8;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     color: #fff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     border: 0;
     cursor: pointer;
     margin-right: 30px;

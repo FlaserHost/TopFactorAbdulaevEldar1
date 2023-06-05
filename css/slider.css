@@ -53,19 +53,20 @@
 }
 
 .button-style{
-    width: 263px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
     border-radius: 3px;
     background-color: #005C9D;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     border: 0;
     cursor: pointer;
     transition: all .2s ease-in-out;
+    text-transform: uppercase;
 }
 
 .button-style:hover{
@@ -85,17 +86,17 @@
 .info-slider {
     padding: 15px;
     margin: 31px auto 0;
-    background: rgba(112, 196, 255, .06);
-  }
+    background: rgba(112, 196, 255, .2);
+}
 
 .slider__content{
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
     overflow-x: clip;
-  }
+}
 
-  .slider__card{
+.slider__card{
     display: flex;
     flex-direction: column;
     width: 360px;
@@ -105,26 +106,29 @@
     border-radius: 10px;
     z-index: 50;
     padding-bottom: 20px;
-  }
+}
 
-  .slider__card:hover{
+.slider__card:hover{
     box-shadow: 0 4px 17px rgba(0, 0, 0, .2);
     transition: all .2s ease-in-out;
     z-index: 50;
-  }
-  .slider__card:hover svg{
+}
+
+.slider__card:hover svg{
     transform: translate3d(3px, 0, 0);
     transition: all .2s ease-in-out;
-  }
-  .slider__card:hover  svg path{
+
+}
+
+.slider__card:hover  svg path{
     fill: #078EEE;
-  }
+}
 
-  .slider__card:hover .card-link > a{
+.slider__card:hover .card-link > a{
     color: #078EEE;
-  }
+}
 
-  .info-slider__card-title{
+.info-slider__card-title{
     max-width: 225px;
     padding-top: 30px;
     display: flex;
@@ -137,93 +141,86 @@
     color: #D05130;
     height: 88px;
     box-sizing: border-box;
-  }
+}
 
-  .info-slider__card-list{
+.info-slider__card-list{
     display: flex;
     flex-direction: column;
     padding: 29px 10px 20px 0;
     min-height: 150px;
     box-sizing: border-box;
-  }
+}
 
-  .card-list-item{
+.card-list-item{
     display: flex;
     padding: 0 0 7px 30px;
-  }
+}
 
-  .item-img{
+.item-img{
     width: 15px;
     height: 23px;
     margin-right: 20px;
     object-fit: contain;
-  }
+}
 
-  .item-text{
+.item-text{
     font-weight: 400;
     font-size: 14px;
     width: 250px;
     display: flex;
     align-items: center;
-  }
+}
 
-  .text-cut-small{
+.text-cut-small{
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
+}
 
-  .text-cut-big{
+.text-cut-big{
     display: block;
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
+}
 
-/*.text-cut-big {
-    display: block;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    word-wrap: break-word;
-}*/
-
-  .slider__card-link {
+.slider__card-link {
     display: flex;
     align-items: center;
     margin-top: auto;
     padding-left: 71px;
-  }
+}
 
-  .slider__card-link > a{
+.slider__card-link > a{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     color: #005C9D;
-  }
+}
 
-  .slider__card-link > svg{
+.slider__card-link > svg{
     padding-top: 3px;
     padding-left: 5px;
     cursor: pointer;
     transition: all .2s ease-in-out;
-  }
+}
 
-  .buttons-swiper{
+.buttons-swiper{
     max-width: 1220px;
     position: relative;
     padding: 0 10px;
     margin: 0 auto;
-  }
+}
 
-  .our-cases > .buttons-swiper {
+.our-cases > .buttons-swiper {
       margin: 30px auto 0;
-  }
+}
 
-  .left-button-info, .right-button-info{
+.left-button-info, .right-button-info{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -232,11 +229,11 @@
     z-index: 190;
 }
 
-  .left-button-info{
+.left-button-info{
     left: 0;
 }
 
-  .right-button-info{
+.right-button-info{
     right: 0;
 }
 
@@ -246,7 +243,7 @@
   min-height: 435px;
   padding: 0 15px;
   margin: 0 auto;
-  background: rgba(112, 196, 255, .06);
+  background: rgba(112, 196, 255, .2);
 }
 
 .slider__card-text{
@@ -280,6 +277,7 @@
   font-size: 16px;
   color: #005C9D;
 }
+
 .cases-link > svg{
   padding-top: 5px;
   padding-left: 5px;
