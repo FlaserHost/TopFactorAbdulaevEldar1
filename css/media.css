@@ -39,14 +39,6 @@
     max-height: 25px;
   }
 
-  .search-input{
-    position: absolute;
-    max-width: 155px;
-    max-height: 32px;
-    margin-left: 40px;
-    transition-duration: .2s;
-  }
-
   .nav2{
     border-top: 1px solid #005C9D;
   }
@@ -166,15 +158,6 @@
   .search-img{
     margin-left: 5px;
     margin-top: 6px;
-  }
-
-  .search-input{
-    border-radius: 5px;
-    margin-left: 45px;
-    padding-left: 7px;
-    font-weight: 400;
-    font-size: 14px;
-    color: #A1A5A8;
   }
 
   .logo{
@@ -1514,6 +1497,10 @@
   .blog__content-img {
     min-height: 152px;
   }
+
+  .links-search {
+    padding-left: 0;
+  }
 }
 
 @media(max-width: 720px){
@@ -1632,6 +1619,14 @@
     padding: 10px 40px;
   }
 
+  .search-area {
+    padding: 10px 0;
+  }
+
+  .search-input {
+    margin: 0 22px 0 0;
+  }
+
   .cloumn__contact-location {
     margin-top: 10px;
   }
@@ -1664,6 +1659,14 @@
 
   .invitation__title {
     padding-top: 24px;
+  }
+
+  .contact__footer-small .call {
+    padding: 0 0 0 10px;
+  }
+
+  .webinar-title h3 {
+    font-size: 15px;
   }
 }
 
@@ -1780,8 +1783,13 @@
 
   .webinars__content-text a,
   .webinars__content-text p {
-    font-size: 13px;
     height: 79px;
+  }
+
+  .webinars__content-text a,
+  .webinars__content-text p,
+  .webinar-title h3 {
+    font-size: 13px;
   }
 }
 
@@ -1859,7 +1867,8 @@
 
   .webinars__content a,
   .webinars__content p,
-  .webinars__content .webinars__content-date {
+  .webinars__content .webinars__content-date,
+  .webinar-title h3 {
     font-size: 11px;
   }
 

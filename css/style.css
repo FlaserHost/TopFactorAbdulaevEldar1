@@ -76,9 +76,21 @@ html, body, .main-content {
     color:  #A1A5A8;
 }
 
+.search-input::placeholder {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, figure {
+    margin: 0;
+}
+
 .search-input:focus{
     outline: #C6C6C6;
     color:  #000;
+}
+
+.cloumn__contact-chat {
+    margin-bottom: 7px;
 }
 
 .call {
@@ -86,18 +98,31 @@ html, body, .main-content {
     font-weight: bold;
     color: #005C9D;
     text-decoration: underline;
-    padding: 10px 33px;
-    display: inline-block;
+    padding-left: 3px;
 }
 
 .call:hover{
     color: #078EEE;
 }
 
+.contact-list a:first-child {
+    width: 30px;
+}
+
 .search-area {
     display: flex;
     align-items: center;
-    padding: 10px 33px;
+}
+
+.columns-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links-search {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
 }
 
 .contact-us{
@@ -493,12 +518,7 @@ html, body, .main-content {
     cursor: pointer;
 }
 
-/*.blog__content-date,
-.blog__content-name {
-    padding-right: 68px;
-}*/
-
-.blog__content-name:hover{
+.blog-item:hover .blog__content-name {
     color: #078EEE;
     transition: all .2s ease-in-out;
 }
@@ -506,7 +526,6 @@ html, body, .main-content {
 .blog__content-img {
     min-width: 200px;
     height: 152px;
-    margin: 0;
 }
 
 .blog__content-img > img {
@@ -529,6 +548,11 @@ html, body, .main-content {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.webinar-title h3 {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .webinars__content{
@@ -906,6 +930,7 @@ html, body, .main-content {
 
 .contact__columns{
     display: flex;
+    flex-direction: column;
     padding-top: 43px;
 }
 
@@ -928,7 +953,7 @@ html, body, .main-content {
 }
 
 .location{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     color: #000;
     max-width: 229px;
@@ -969,7 +994,12 @@ html, body, .main-content {
     align-items: center;
     justify-content: space-between;
     padding: 15px 0;
-    max-width: 235px;
+    width: 235px;
+}
+
+.cloumn__contact-social > a:nth-child(3) {
+    display: flex;
+    align-items: center;
 }
 
 .column__title{
