@@ -643,7 +643,7 @@
   }
 
   .webinars__content-text {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
@@ -735,12 +735,8 @@
     margin-top: 2px;
   }
 
-  .blog{
-    display: none;
-  }
-
   .container-body{
-    padding-top: 0px;
+    padding-top: 0;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -774,7 +770,6 @@
   }
 
   .blog__content-date{
-    padding-top: 15px;
     max-width: 263px;
   }
 
@@ -792,7 +787,7 @@
   }
 
   .webinars__content {
-    margin: 23px 0 31px 0;
+    margin-top: 22px;
     padding: 25px 32px;
   }
 
@@ -814,12 +809,11 @@
   }
 
   .webinars__content {
-    margin: 23px 0 31px 0;
     padding: 26px 32px;
   }
 
   .line, .line2 {
-    margin: 22px;
+    margin: 22px 0;
   }
 }
 
@@ -1466,6 +1460,30 @@
   }
 }
 
+@media (max-width: 1167px) {
+  .blog-webinars > .container-body {
+    justify-content: center;
+  }
+
+  .blog-webinars .webinars {
+    margin: 40px 0 0;
+  }
+
+  .blog-header,
+  .webinars-header {
+    text-align: center;
+  }
+
+  .webinars__button {
+    margin-top: 30px;
+    justify-content: flex-start;
+  }
+
+  .blog__content {
+    min-height: initial;
+  }
+}
+
 @media (max-width: 1000px){
   .group1{
     padding-left: 120px;
@@ -1491,6 +1509,10 @@
 
   .language-popup {
     order: 2;
+  }
+
+  .blog__content-img {
+    min-height: 152px;
   }
 }
 
@@ -1531,6 +1553,41 @@
 
   .footer__link-group > ul > li {
     padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 611px) {
+  .results-content {
+    height: 791px;
+  }
+}
+
+@media (max-width: 510px) {
+  .invitation__title {
+    padding-top: 38px;
+    font-size: 26px;
+  }
+
+  .invitation__subtitle {
+    font-size: 17px;
+  }
+
+  .invitation__list-item > p,
+  .blog__content-name {
+    font-size: 14px;
+  }
+
+  .blog__content-name {
+    padding-right: 0;
+  }
+
+  .blog__content-img {
+    min-width: 186px;
+  }
+
+  .our-cases .buttons-swiper,
+  .cooperation__slider .buttons-swiper {
+    max-width: 388px;
   }
 }
 
@@ -1590,6 +1647,24 @@
   .our-results {
     margin-top: 40px;
   }
+
+  .blog__content-img {
+    min-width: 100px;
+    height: 118px;
+    min-height: initial;
+  }
+
+  .blog__content-name {
+    font-size: 12px;
+  }
+
+  .section-invitation {
+    height: 383px;
+  }
+
+  .invitation__title {
+    padding-top: 24px;
+  }
 }
 
 @media (max-width: 376px) {
@@ -1612,6 +1687,19 @@
 
   .results__column {
     padding-left: 20px;
+  }
+
+  .blog__content {
+    padding: 17px;
+  }
+
+  .blog__content-img {
+    height: 121px;
+  }
+
+  .blog__content-date,
+  .blog__content-name {
+    padding-right: 0;
   }
 
   .line {
@@ -1656,6 +1744,44 @@
 
   .popup {
     top: 83px;
+  }
+
+  .webinars__content,
+  .button-style {
+    max-width: initial;
+    width: 100%;
+  }
+
+  .webinars__content {
+    margin-bottom: 0;
+  }
+
+  .webinars__title {
+    margin-right: 0;
+  }
+
+  .blog__content-date {
+    padding-bottom: 10px;
+  }
+
+  .blog__content-item .blog__content-name,
+  .blog__content-item .blog__content-date,
+  .blog__content-item .blog-annotation {
+    font-size: 11px;
+  }
+
+  .blog-annotation {
+    -webkit-line-clamp: 4;
+  }
+
+  .webinars__content {
+    min-height: initial;
+  }
+
+  .webinars__content-text a,
+  .webinars__content-text p {
+    font-size: 13px;
+    height: 79px;
   }
 }
 
@@ -1711,6 +1837,47 @@
 
   .our-results__background {
     height: 476px;
+  }
+
+  .blog__content-img {
+    height: 130px;
+  }
+
+  .blog__content-item .blog__content-name,
+  .blog__content-item .blog__content-date,
+  .blog__content-item .blog-annotation {
+    font-size: 10px;
+  }
+
+  .blog-annotation {
+    -webkit-line-clamp: 4;
+  }
+
+  .webinars__content {
+    min-height: initial;
+  }
+
+  .webinars__content a,
+  .webinars__content p,
+  .webinars__content .webinars__content-date {
+    font-size: 11px;
+  }
+
+  .webinars__content p {
+    -webkit-line-clamp: 6;
+  }
+
+  .section-invitation {
+    height: 373px;
+  }
+
+  .invitation__title {
+    padding-top: 20px;
+    font-size: 22px;
+  }
+
+  .invitation__subtitle {
+    font-size: 14px;
   }
 
   .results-content {
