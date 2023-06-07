@@ -546,7 +546,7 @@
 
 @media (max-width: 768px){
   .section-invitation{
-    height: 377px;
+    min-height: 377px;
   }
 
   .invitation__title {
@@ -603,7 +603,7 @@
   }
 
   .section-invitation{
-    height: 392px;
+    min-height: 392px;
   }
 
   .invitation__link > a {
@@ -632,7 +632,7 @@
 
 @media(max-width: 390px){
   .section-invitation{
-    height: 422px;
+    min-height: 422px;
   }
 
   .invitation__title {
@@ -1649,7 +1649,7 @@
   }
 
   .section-invitation {
-    height: 383px;
+    min-height: 383px;
   }
 
   .invitation__title {
@@ -1872,7 +1872,7 @@
   }
 
   .section-invitation {
-    height: 373px;
+    min-height: 373px;
   }
 
   .invitation__title {

@@ -333,7 +333,8 @@ h1, h2, h3, h4, h5, h6, figure {
 /* Section invitation */
 
 .section-invitation{
-    height: 412px;
+    min-height: 412px;
+    padding-bottom: 24px;
     margin: 0 auto;
     background: url("../images/invitation.jpg") 50% / cover no-repeat;
     background-blend-mode: luminosity;
