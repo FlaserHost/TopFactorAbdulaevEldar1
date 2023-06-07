@@ -53,8 +53,9 @@
 }
 
 .button-style{
-    width: 160px;
+    min-width: 160px;
     height: 40px;
+    padding: 0 20px;
     border-radius: 3px;
     background-color: #005C9D;
     font-family: 'Inter', sans-serif;
