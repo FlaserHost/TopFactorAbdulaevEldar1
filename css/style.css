@@ -58,6 +58,10 @@ html, body, .main-content {
     align-items: center;
 }
 
+.language-item > img {
+    width: 30px;
+}
+
 .selected-lang {
     color: #005C9D;
     font-size: 14px;
@@ -191,8 +195,7 @@ h1, h2, h3, h4, h5, h6, figure {
     right: 0;
     top: 50px;
     width: 183px;
-    height: 252px;
-    background-color: #FFFFFF;
+    background-color: #fff;
     box-shadow: 0 4px 19px rgba(0, 0, 0, .08);
     border-radius: 5px;
     z-index: 101;
@@ -216,11 +219,14 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 134px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #DDDDDD;
     padding: 10px 0;
     font-size: 18px;
     font-weight: 400;
     cursor: pointer;
+}
+
+.language-list > li:not(:first-child) > a {
+    border-top: 1px solid #ddd;
 }
 
 .language-item:hover{
