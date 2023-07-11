@@ -673,19 +673,22 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .results-content{
-    max-width: 1770px;
+    /*max-width: 1770px;*/
     margin: 0 auto;
     z-index: 500;
 }
 
 .our-results__background{
-    width: 80%;
+    width: 100%;
     height: 660px;
     margin: 40px auto 0;
-    background: url("../images/our-results.jpg") 50%/cover no-repeat ;
-    background-size: contain;
-    background-blend-mode: luminosity;
+    background: url('../images/НИЗ.png') no-repeat center / 100% 100%;
     z-index: 501;
+    text-align: center;
+}
+
+.up-img {
+    width: 50%;
 }
 
 .title-style-block{
@@ -705,7 +708,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .our-clients{
     height: 398px;
-    margin: 40px auto 0;
+    margin: 100px auto 0;
 }
 
 .our__clients-slider{
