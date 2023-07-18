@@ -46,10 +46,41 @@
     z-index: 10;
 }
 
-.subtitle{
+.title-banner.solutions {
+    text-transform: uppercase;
+}
+
+.subtitle {
     max-width: 410px;
     font-size: 24px;
     font-weight: 400;
+}
+
+.subtitle.solutions {
+    font-size: 14px;
+    max-width: 490px;
+    padding-left: 18px;
+}
+
+.subtitle.solutions > ul,
+.subtitle.solutions li {
+    position: relative;
+}
+
+.subtitle.solutions li {
+    margin-top: 15px;
+}
+
+.subtitle.solutions li:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: calc(100% + 10px);
+    background: url('../images/circle.svg') no-repeat center / 100% 100%;
 }
 
 .button-style{
@@ -68,6 +99,7 @@
     cursor: pointer;
     transition: all .2s ease-in-out;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 
 .button-style:hover{
