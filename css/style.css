@@ -1163,6 +1163,7 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 50px 0;
     display: flex;
     justify-content: center;
+    border-bottom: 3px solid #005C9D;
 }
 
 .title-flex {
