@@ -89,16 +89,16 @@ document.getElementById('show-functionality-btn').addEventListener('click', btn 
 });
 
 // логика рассчета
-const unepRetail = 560; // B20
-const ukepRetail = 1800; // B21
+const unepRetail = 6.18; // B20
+const ukepRetail = 19.85; // B21
 const parametrs = { // A23 и ниже
-    5: 131100,
-    10: 176316,
-    20: 296196,
-    50: 568836,
-    100: 863460,
-    200: 1726920,
-    300: 2590380
+    5: 1445.64,
+    10: 1944.24,
+    20: 3266.15,
+    50: 6272.55,
+    100: 9521.37,
+    200: 19042.75,
+    300: 28564.12
 };
 
 document.getElementById('calculate-btn').addEventListener('click', e => {
@@ -122,8 +122,8 @@ document.getElementById('calculate-btn').addEventListener('click', e => {
     const retailYearD4 = parametrs[calculateData[2][1]];
     const summaFastStart = Math.round((retailYearD3 + retailYearD4) / 12);
     const summaFastStartFormatted = summaFastStart.toLocaleString();
-    const summaExtendedFormatted = (summaFastStart + 13708).toLocaleString(); // 164500 / 12 = 13 708.33333333
+    const summaExtendedFormatted = Math.round(summaFastStart + 151.17).toLocaleString(); // 1813.94 / 12 = 151.17
 
-    document.querySelectorAll('.fast-start').forEach(item => item.innerHTML = `${summaFastStartFormatted} руб`);
-    document.querySelectorAll('.extended').forEach(item => item.innerHTML = `${summaExtendedFormatted} руб`);
+    document.querySelectorAll('.fast-start > .digits').forEach(item => item.innerHTML = `$${summaFastStartFormatted}`);
+    document.querySelectorAll('.extended > .digits').forEach(item => item.innerHTML = `$${summaExtendedFormatted}`);
 });
