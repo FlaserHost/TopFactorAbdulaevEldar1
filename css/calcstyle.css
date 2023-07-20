@@ -375,6 +375,8 @@ th.rates-prices-mobile-header > p {
 
 .show-table-place {
     text-align: center;
+    margin-top: 50px;
+    position: relative;
 }
 
 .price {
@@ -544,10 +546,6 @@ img[alt="pricing"] {
     outline: none;
     font-size: 15px;
     position: relative;
-}
-
-.show-table-place {
-    margin-top: 50px;
 }
 
 .closed:after,
