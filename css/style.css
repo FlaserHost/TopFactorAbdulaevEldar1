@@ -702,7 +702,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .our-results{
     margin: 0 auto;
-    height: 770px;
+    height: 637px;
 }
 
 .results-content{
@@ -713,6 +713,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .our-results__background{
     width: 100%;
+    max-width: 1526px;
     height: 100%;
     margin: 40px auto 0;
     background: url('../images/НИЗ.png') no-repeat center / 100% 100%;
